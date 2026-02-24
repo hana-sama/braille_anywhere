@@ -1,5 +1,0 @@
-modalresearch_wU9N6YijOzkwh_79kr7lt1w9wau3ikbierDoyzynytw
-
-
-base url: https://api.us-west-2.modal.direct/v1/
-"model": "zai-org/GLM-5-FP8",

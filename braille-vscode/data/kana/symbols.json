@@ -1,0 +1,488 @@
+{
+  "schema_version": "1.0",
+  "system_id": "kana",
+  "system_name": "日本点字表記法2018年版",
+  "locale": "ja",
+  "braille_type": "kana",
+  "cell_size": 6,
+  "entries": [
+    {
+      "id": "kana_period",
+      "category": "kana",
+      "subcategory": "punctuation",
+      "print": "。",
+      "dots": [
+        "256"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "punctuation",
+      "tags": [
+        "kana",
+        "punctuation"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠲",
+      "unicode": "U+2832"
+    },
+    {
+      "id": "kana_question",
+      "category": "kana",
+      "subcategory": "punctuation",
+      "print": "？",
+      "dots": [
+        "26"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "punctuation",
+      "tags": [
+        "kana",
+        "punctuation"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠢",
+      "unicode": "U+2822"
+    },
+    {
+      "id": "kana_exclamation",
+      "category": "kana",
+      "subcategory": "punctuation",
+      "print": "！",
+      "dots": [
+        "235"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "punctuation",
+      "tags": [
+        "kana",
+        "punctuation"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠖",
+      "unicode": "U+2816"
+    },
+    {
+      "id": "kana_comma",
+      "category": "kana",
+      "subcategory": "punctuation",
+      "print": "、",
+      "dots": [
+        "56"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "punctuation",
+      "tags": [
+        "kana",
+        "punctuation"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠰",
+      "unicode": "U+2830"
+    },
+    {
+      "id": "kana_bar_line",
+      "category": "kana",
+      "subcategory": "symbols",
+      "print": "ー",
+      "dots": [
+        "25",
+        "25"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "symbols",
+      "tags": [
+        "kana",
+        "symbols"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠒⠒",
+      "unicode": "U+2812 U+2812"
+    },
+    {
+      "id": "kana_left_bracket",
+      "category": "kana",
+      "subcategory": "symbols",
+      "print": "「",
+      "dots": [
+        "36"
+      ],
+      "context": {
+        "position": "before",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "open",
+      "tags": [
+        "kana",
+        "symbols"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠤",
+      "unicode": "U+2824"
+    },
+    {
+      "id": "kana_right_bracket",
+      "category": "kana",
+      "subcategory": "symbols",
+      "print": "」",
+      "dots": [
+        "36"
+      ],
+      "context": {
+        "position": "after",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "close",
+      "tags": [
+        "kana",
+        "symbols"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠤",
+      "unicode": "U+2824"
+    },
+    {
+      "id": "kana_left_square_bracket",
+      "category": "kana",
+      "subcategory": "symbols",
+      "print": "＜",
+      "dots": [
+        "56",
+        "3"
+      ],
+      "context": {
+        "position": "before",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "open",
+      "tags": [
+        "kana",
+        "symbols"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠰⠄",
+      "unicode": "U+2830 U+2804"
+    },
+    {
+      "id": "kana_right_square_bracket",
+      "category": "kana",
+      "subcategory": "symbols",
+      "print": "＞",
+      "dots": [
+        "6",
+        "23"
+      ],
+      "context": {
+        "position": "after",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "close",
+      "tags": [
+        "kana",
+        "symbols"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠠⠆",
+      "unicode": "U+2820 U+2806"
+    },
+    {
+      "id": "kana_left_fat_bracket",
+      "category": "kana",
+      "subcategory": "symbols",
+      "print": "『",
+      "dots": [
+        "56",
+        "36"
+      ],
+      "context": {
+        "position": "before",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "open",
+      "tags": [
+        "kana",
+        "symbols"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠰⠤",
+      "unicode": "U+2830 U+2824"
+    },
+    {
+      "id": "kana_right_fat_bracket",
+      "category": "kana",
+      "subcategory": "symbols",
+      "print": "』",
+      "dots": [
+        "36",
+        "23"
+      ],
+      "context": {
+        "position": "after",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "close",
+      "tags": [
+        "kana",
+        "symbols"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠤⠆",
+      "unicode": "U+2824 U+2806"
+    },
+    {
+      "id": "kana_wave_dash",
+      "category": "kana",
+      "subcategory": "symbols",
+      "print": "〜",
+      "dots": [
+        "36",
+        "36"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "symbols",
+      "tags": [
+        "kana",
+        "symbols"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠤⠤",
+      "unicode": "U+2824 U+2824"
+    },
+    {
+      "id": "kana_left_braille_translation",
+      "category": "kana",
+      "subcategory": "symbols",
+      "print": "⠶⠶",
+      "dots": [
+        "2356",
+        "2356"
+      ],
+      "context": {
+        "position": "before",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "open",
+      "tags": [
+        "kana",
+        "symbols"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠶⠶",
+      "unicode": "U+2836 U+2836"
+    },
+    {
+      "id": "kana_right_braille_translation",
+      "category": "kana",
+      "subcategory": "symbols",
+      "print": "⠶⠶",
+      "dots": [
+        "2356",
+        "2356"
+      ],
+      "context": {
+        "position": "after",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "close",
+      "tags": [
+        "kana",
+        "symbols"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠶⠶",
+      "unicode": "U+2836 U+2836"
+    },
+    {
+      "id": "kana_1st_star",
+      "category": "kana",
+      "subcategory": "symbols",
+      "print": "☆",
+      "dots": [
+        "35",
+        "35"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "symbols",
+      "tags": [
+        "kana",
+        "symbols"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠔⠔",
+      "unicode": "U+2814 U+2814"
+    },
+    {
+      "id": "kana_2nd_star",
+      "category": "kana",
+      "subcategory": "symbols",
+      "print": "★",
+      "dots": [
+        "26",
+        "26"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "symbols",
+      "tags": [
+        "kana",
+        "symbols"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠢⠢",
+      "unicode": "U+2822 U+2822"
+    },
+    {
+      "id": "kana_percent",
+      "category": "kana",
+      "subcategory": "symbols",
+      "print": "％",
+      "dots": [
+        "56",
+        "1234"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "symbols",
+      "tags": [
+        "kana",
+        "symbols"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠰⠏",
+      "unicode": "U+2830 U+280F"
+    },
+    {
+      "id": "kana_and_sign",
+      "category": "kana",
+      "subcategory": "symbols",
+      "print": "＆",
+      "dots": [
+        "56",
+        "12346"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "symbols",
+      "tags": [
+        "kana",
+        "symbols"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠰⠯",
+      "unicode": "U+2830 U+282F"
+    },
+    {
+      "id": "kana_at_sign",
+      "category": "kana",
+      "subcategory": "symbols",
+      "print": "＠",
+      "dots": [
+        "56",
+        "246"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "symbols",
+      "tags": [
+        "kana",
+        "symbols"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠰⠪",
+      "unicode": "U+2830 U+282A"
+    },
+    {
+      "id": "kana_number_sign",
+      "category": "kana",
+      "subcategory": "symbols",
+      "print": "＃",
+      "dots": [
+        "56",
+        "146"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "symbols",
+      "tags": [
+        "kana",
+        "symbols"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠰⠩",
+      "unicode": "U+2830 U+2829"
+    },
+    {
+      "id": "kana_asterisk",
+      "category": "kana",
+      "subcategory": "symbols",
+      "print": "＊",
+      "dots": [
+        "56",
+        "35"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "symbols",
+      "tags": [
+        "kana",
+        "symbols"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠰⠔",
+      "unicode": "U+2830 U+2814"
+    }
+  ],
+  "settings": {}
+}

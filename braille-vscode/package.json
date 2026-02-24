@@ -1,0 +1,116 @@
+{
+  "name": "braille-input-helper",
+  "displayName": "Braille Input Helper",
+  "description": "6-dot braille input with unified indicator-based mode switching (Grade 1 / Kana / Grade 2 / Nemeth)",
+  "version": "0.1.0",
+  "publisher": "braille-always",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "braille.toggleMode",
+        "title": "Braille: Toggle Braille Input Mode"
+      },
+      {
+        "command": "braille.dotInput",
+        "title": "Braille: Dot Input"
+      }
+    ],
+    "keybindings": [
+      {
+        "key": "f",
+        "command": "braille.dotInput",
+        "args": {
+          "dot": 1
+        },
+        "when": "editorTextFocus && braille.active"
+      },
+      {
+        "key": "d",
+        "command": "braille.dotInput",
+        "args": {
+          "dot": 2
+        },
+        "when": "editorTextFocus && braille.active"
+      },
+      {
+        "key": "s",
+        "command": "braille.dotInput",
+        "args": {
+          "dot": 3
+        },
+        "when": "editorTextFocus && braille.active"
+      },
+      {
+        "key": "j",
+        "command": "braille.dotInput",
+        "args": {
+          "dot": 4
+        },
+        "when": "editorTextFocus && braille.active"
+      },
+      {
+        "key": "k",
+        "command": "braille.dotInput",
+        "args": {
+          "dot": 5
+        },
+        "when": "editorTextFocus && braille.active"
+      },
+      {
+        "key": "l",
+        "command": "braille.dotInput",
+        "args": {
+          "dot": 6
+        },
+        "when": "editorTextFocus && braille.active"
+      },
+      {
+        "key": "space",
+        "command": "braille.dotInput",
+        "args": {
+          "dot": 0
+        },
+        "when": "editorTextFocus && braille.active"
+      }
+    ],
+    "configuration": {
+      "title": "Braille Input Helper",
+      "properties": {
+        "braille.keyLayout": {
+          "type": "string",
+          "default": "fds-jkl",
+          "enum": [
+            "fds-jkl",
+            "dwq-kop"
+          ],
+          "description": "Key layout for 6-dot braille input"
+        },
+        "braille.chordTimeout": {
+          "type": "number",
+          "default": 50,
+          "description": "Time window (ms) to detect simultaneous key presses"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "lint": "eslint src",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/vscode": "^1.85.0",
+    "typescript": "^5.3.0"
+  }
+}

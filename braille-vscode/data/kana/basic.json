@@ -1,0 +1,1316 @@
+{
+  "schema_version": "1.0",
+  "system_id": "kana",
+  "system_name": "日本点字表記法2018年版",
+  "locale": "ja",
+  "braille_type": "kana",
+  "cell_size": 6,
+  "entries": [
+    {
+      "id": "kana_a",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "あ",
+      "dots": [
+        "1"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "vowel"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠁",
+      "unicode": "U+2801"
+    },
+    {
+      "id": "kana_i",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "い",
+      "dots": [
+        "12"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "vowel"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠃",
+      "unicode": "U+2803"
+    },
+    {
+      "id": "kana_u",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "う",
+      "dots": [
+        "14"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "vowel"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠉",
+      "unicode": "U+2809"
+    },
+    {
+      "id": "kana_e",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "え",
+      "dots": [
+        "124"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "vowel"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠋",
+      "unicode": "U+280B"
+    },
+    {
+      "id": "kana_o",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "お",
+      "dots": [
+        "24"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "vowel"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠊",
+      "unicode": "U+280A"
+    },
+    {
+      "id": "kana_ka",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "か",
+      "dots": [
+        "16"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "consonant"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠡",
+      "unicode": "U+2821"
+    },
+    {
+      "id": "kana_ki",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "き",
+      "dots": [
+        "126"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "consonant"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠣",
+      "unicode": "U+2823"
+    },
+    {
+      "id": "kana_ku",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "く",
+      "dots": [
+        "146"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "consonant"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠩",
+      "unicode": "U+2829"
+    },
+    {
+      "id": "kana_ke",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "け",
+      "dots": [
+        "1246"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "consonant"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠫",
+      "unicode": "U+282B"
+    },
+    {
+      "id": "kana_ko",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "こ",
+      "dots": [
+        "246"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "consonant"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠪",
+      "unicode": "U+282A"
+    },
+    {
+      "id": "kana_sa",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "さ",
+      "dots": [
+        "156"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "consonant"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠱",
+      "unicode": "U+2831"
+    },
+    {
+      "id": "kana_si",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "し",
+      "dots": [
+        "1256"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "consonant"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠳",
+      "unicode": "U+2833"
+    },
+    {
+      "id": "kana_su",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "す",
+      "dots": [
+        "1456"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "consonant"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠹",
+      "unicode": "U+2839"
+    },
+    {
+      "id": "kana_se",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "せ",
+      "dots": [
+        "12456"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "consonant"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠻",
+      "unicode": "U+283B"
+    },
+    {
+      "id": "kana_so",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "そ",
+      "dots": [
+        "2456"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "consonant"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠺",
+      "unicode": "U+283A"
+    },
+    {
+      "id": "kana_ta",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "た",
+      "dots": [
+        "135"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "consonant"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠕",
+      "unicode": "U+2815"
+    },
+    {
+      "id": "kana_chi",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "ち",
+      "dots": [
+        "1235"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "consonant"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠗",
+      "unicode": "U+2817"
+    },
+    {
+      "id": "kana_tsu",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "つ",
+      "dots": [
+        "1345"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "consonant"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠝",
+      "unicode": "U+281D"
+    },
+    {
+      "id": "kana_te",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "て",
+      "dots": [
+        "12345"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "consonant"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠟",
+      "unicode": "U+281F"
+    },
+    {
+      "id": "kana_to",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "と",
+      "dots": [
+        "2345"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "consonant"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠞",
+      "unicode": "U+281E"
+    },
+    {
+      "id": "kana_na",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "な",
+      "dots": [
+        "13"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "consonant"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠅",
+      "unicode": "U+2805"
+    },
+    {
+      "id": "kana_ni",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "に",
+      "dots": [
+        "123"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "consonant"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠇",
+      "unicode": "U+2807"
+    },
+    {
+      "id": "kana_nu",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "ぬ",
+      "dots": [
+        "134"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "consonant"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠍",
+      "unicode": "U+280D"
+    },
+    {
+      "id": "kana_ne",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "ね",
+      "dots": [
+        "1234"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "consonant"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠏",
+      "unicode": "U+280F"
+    },
+    {
+      "id": "kana_no",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "の",
+      "dots": [
+        "234"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "consonant"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠎",
+      "unicode": "U+280E"
+    },
+    {
+      "id": "kana_ha",
+      "category": "kana",
+      "subcategory": "particle",
+      "print": "は",
+      "dots": [
+        "136"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 90
+      },
+      "role": "particle",
+      "tags": [
+        "助詞",
+        "custom"
+      ],
+      "note": "仮名遣いモード: は → ハ点字",
+      "braille": "⠥",
+      "unicode": "U+2825"
+    },
+    {
+      "id": "kana_hi",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "ひ",
+      "dots": [
+        "1236"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "consonant"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠧",
+      "unicode": "U+2827"
+    },
+    {
+      "id": "kana_fu",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "ふ",
+      "dots": [
+        "1346"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "consonant"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠭",
+      "unicode": "U+282D"
+    },
+    {
+      "id": "kana_he",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "へ",
+      "dots": [
+        "12346"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "consonant"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠯",
+      "unicode": "U+282F"
+    },
+    {
+      "id": "kana_ho",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "ほ",
+      "dots": [
+        "2346"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "consonant"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠮",
+      "unicode": "U+282E"
+    },
+    {
+      "id": "kana_ma",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "ま",
+      "dots": [
+        "1356"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "consonant"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠵",
+      "unicode": "U+2835"
+    },
+    {
+      "id": "kana_mi",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "み",
+      "dots": [
+        "12356"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "consonant"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠷",
+      "unicode": "U+2837"
+    },
+    {
+      "id": "kana_mu",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "む",
+      "dots": [
+        "13456"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "consonant"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠽",
+      "unicode": "U+283D"
+    },
+    {
+      "id": "kana_me",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "め",
+      "dots": [
+        "123456"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "consonant"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠿",
+      "unicode": "U+283F"
+    },
+    {
+      "id": "kana_mo",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "も",
+      "dots": [
+        "23456"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "consonant"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠾",
+      "unicode": "U+283E"
+    },
+    {
+      "id": "kana_ya",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "や",
+      "dots": [
+        "34"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "consonant"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠌",
+      "unicode": "U+280C"
+    },
+    {
+      "id": "kana_yu",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "ゆ",
+      "dots": [
+        "346"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "consonant"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠬",
+      "unicode": "U+282C"
+    },
+    {
+      "id": "kana_yo",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "よ",
+      "dots": [
+        "345"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "consonant"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠜",
+      "unicode": "U+281C"
+    },
+    {
+      "id": "kana_ra",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "ら",
+      "dots": [
+        "15"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "consonant"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠑",
+      "unicode": "U+2811"
+    },
+    {
+      "id": "kana_ri",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "り",
+      "dots": [
+        "125"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "consonant"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠓",
+      "unicode": "U+2813"
+    },
+    {
+      "id": "kana_ru",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "る",
+      "dots": [
+        "145"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "consonant"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠙",
+      "unicode": "U+2819"
+    },
+    {
+      "id": "kana_re",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "れ",
+      "dots": [
+        "1245"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "consonant"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠛",
+      "unicode": "U+281B"
+    },
+    {
+      "id": "kana_ro",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "ろ",
+      "dots": [
+        "245"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "consonant"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠚",
+      "unicode": "U+281A"
+    },
+    {
+      "id": "kana_wa",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "わ",
+      "dots": [
+        "3"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "consonant"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠄",
+      "unicode": "U+2804"
+    },
+    {
+      "id": "kana_wo",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "を",
+      "dots": [
+        "35"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "consonant"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠔",
+      "unicode": "U+2814"
+    },
+    {
+      "id": "kana_un",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "ん",
+      "dots": [
+        "356"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "consonant"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠴",
+      "unicode": "U+2834"
+    },
+    {
+      "id": "kana_txu",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "っ",
+      "dots": [
+        "2"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "consonant"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠂",
+      "unicode": "U+2802"
+    },
+    {
+      "id": "kana_hyphen",
+      "category": "kana",
+      "subcategory": "basic",
+      "print": "ー",
+      "dots": [
+        "25"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "kana",
+        "hyphen"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠒",
+      "unicode": "U+2812"
+    },
+    {
+      "id": "kana_one",
+      "category": "kana",
+      "subcategory": "numbers",
+      "print": "1",
+      "dots": [
+        "1"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "numbers",
+      "tags": [
+        "kana",
+        "numbers"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠁",
+      "unicode": "U+2801"
+    },
+    {
+      "id": "kana_two",
+      "category": "kana",
+      "subcategory": "numbers",
+      "print": "2",
+      "dots": [
+        "12"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "numbers",
+      "tags": [
+        "kana",
+        "numbers"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠃",
+      "unicode": "U+2803"
+    },
+    {
+      "id": "kana_three",
+      "category": "kana",
+      "subcategory": "numbers",
+      "print": "3",
+      "dots": [
+        "14"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "numbers",
+      "tags": [
+        "kana",
+        "numbers"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠉",
+      "unicode": "U+2809"
+    },
+    {
+      "id": "kana_four",
+      "category": "kana",
+      "subcategory": "numbers",
+      "print": "4",
+      "dots": [
+        "145"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "numbers",
+      "tags": [
+        "kana",
+        "numbers"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠙",
+      "unicode": "U+2819"
+    },
+    {
+      "id": "kana_five",
+      "category": "kana",
+      "subcategory": "numbers",
+      "print": "5",
+      "dots": [
+        "15"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "numbers",
+      "tags": [
+        "kana",
+        "numbers"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠑",
+      "unicode": "U+2811"
+    },
+    {
+      "id": "kana_six",
+      "category": "kana",
+      "subcategory": "numbers",
+      "print": "6",
+      "dots": [
+        "124"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "numbers",
+      "tags": [
+        "kana",
+        "numbers"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠋",
+      "unicode": "U+280B"
+    },
+    {
+      "id": "kana_seven",
+      "category": "kana",
+      "subcategory": "numbers",
+      "print": "7",
+      "dots": [
+        "1245"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "numbers",
+      "tags": [
+        "kana",
+        "numbers"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠛",
+      "unicode": "U+281B"
+    },
+    {
+      "id": "kana_eight",
+      "category": "kana",
+      "subcategory": "numbers",
+      "print": "8",
+      "dots": [
+        "125"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "numbers",
+      "tags": [
+        "kana",
+        "numbers"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠓",
+      "unicode": "U+2813"
+    },
+    {
+      "id": "kana_nine",
+      "category": "kana",
+      "subcategory": "numbers",
+      "print": "9",
+      "dots": [
+        "24"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "numbers",
+      "tags": [
+        "kana",
+        "numbers"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠊",
+      "unicode": "U+280A"
+    },
+    {
+      "id": "kana_zero",
+      "category": "kana",
+      "subcategory": "numbers",
+      "print": "0",
+      "dots": [
+        "245"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "numbers",
+      "tags": [
+        "kana",
+        "numbers"
+      ],
+      "note": "標準点字と同じ",
+      "braille": "⠚",
+      "unicode": "U+281A"
+    },
+    {
+      "id": "letter_a",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "a",
+      "braille": "⠁",
+      "dots": [
+        "1"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "alphabet"
+      ],
+      "note": "",
+      "unicode": "U+2801"
+    }
+  ],
+  "settings": {
+    "default_mode": "modern-kana",
+    "word_separation": "space",
+    "exclude_symbols": [
+      "tsunagi",
+      "small-heading",
+      "blank-symbol"
+    ]
+  }
+}

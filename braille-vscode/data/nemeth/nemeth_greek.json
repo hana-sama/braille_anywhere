@@ -1,0 +1,446 @@
+{
+  "schema_version": "1.0",
+  "system_id": "nemeth",
+  "system_name": "Nemeth Code",
+  "locale": "en",
+  "braille_type": "math",
+  "cell_size": 6,
+  "entries": [
+    {
+      "id": "letter_alpha",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "Α",
+      "dots": [
+        "46",
+        "1"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100,
+        "role": "letter"
+      },
+      "tags": [
+        "letter",
+        "greek",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠨⠁",
+      "unicode": "U+2828 U+2801"
+    },
+    {
+      "id": "letter_beta",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "β",
+      "dots": [
+        "46",
+        "12"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100,
+        "role": "letter"
+      },
+      "tags": [
+        "letter",
+        "greek",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠨⠃",
+      "unicode": "U+2828 U+2803"
+    },
+    {
+      "id": "letter_gamma",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "Γ",
+      "dots": [
+        "46",
+        "1245"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100,
+        "role": "letter"
+      },
+      "tags": [
+        "letter",
+        "greek",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠨⠛",
+      "unicode": "U+2828 U+281B"
+    },
+    {
+      "id": "letter_delta_lowercase",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "δ",
+      "dots": [
+        "46",
+        "145"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100,
+        "role": "letter"
+      },
+      "tags": [
+        "letter",
+        "greek",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠨⠙",
+      "unicode": "U+2828 U+2819"
+    },
+    {
+      "id": "letter_delta_uppercase",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "Δ",
+      "dots": [
+        "46",
+        "6",
+        "145"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100,
+        "role": "letter"
+      },
+      "tags": [
+        "letter",
+        "greek",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠨⠠⠙",
+      "unicode": "U+2828 U+2820 U+2819"
+    },
+    {
+      "id": "letter_epsilon",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "Ε",
+      "dots": [
+        "46",
+        "15"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100,
+        "role": "letter"
+      },
+      "tags": [
+        "letter",
+        "greek",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠨⠑",
+      "unicode": "U+2828 U+2811"
+    },
+    {
+      "id": "letter_zeta",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "Ζ",
+      "dots": [
+        "46",
+        "1356"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100,
+        "role": "letter"
+      },
+      "tags": [
+        "letter",
+        "greek",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠨⠵",
+      "unicode": "U+2828 U+2835"
+    },
+    {
+      "id": "letter_theta",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "θ",
+      "dots": [
+        "46",
+        "1456"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100,
+        "role": "letter"
+      },
+      "tags": [
+        "letter",
+        "greek",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠨⠹",
+      "unicode": "U+2828 U+2839"
+    },
+    {
+      "id": "letter_lambda",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "Λ",
+      "dots": [
+        "46",
+        "123"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100,
+        "role": "letter"
+      },
+      "tags": [
+        "letter",
+        "greek",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠨⠇",
+      "unicode": "U+2828 U+2807"
+    },
+    {
+      "id": "letter_mu",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "Μ",
+      "dots": [
+        "46",
+        "134"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100,
+        "role": "letter"
+      },
+      "tags": [
+        "letter",
+        "greek",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠨⠍",
+      "unicode": "U+2828 U+280D"
+    },
+    {
+      "id": "letter_nu",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "Ν",
+      "dots": [
+        "46",
+        "1345"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100,
+        "role": "letter"
+      },
+      "tags": [
+        "letter",
+        "greek",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠨⠝",
+      "unicode": "U+2828 U+281D"
+    },
+    {
+      "id": "letter_pi",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "Π",
+      "dots": [
+        "46",
+        "1234"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100,
+        "role": "letter"
+      },
+      "tags": [
+        "letter",
+        "greek",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠨⠏",
+      "unicode": "U+2828 U+280F"
+    },
+    {
+      "id": "letter_sigma_lowercase",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "σ",
+      "dots": [
+        "46",
+        "234"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100,
+        "role": "letter"
+      },
+      "tags": [
+        "letter",
+        "greek",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠨⠎",
+      "unicode": "U+2828 U+280E"
+    },
+    {
+      "id": "letter_sigma_uppercase",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "Σ",
+      "dots": [
+        "46",
+        "6",
+        "234"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100,
+        "role": "letter"
+      },
+      "tags": [
+        "letter",
+        "greek",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠨⠠⠎",
+      "unicode": "U+2828 U+2820 U+280E"
+    },
+    {
+      "id": "letter_tau",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "τ",
+      "dots": [
+        "46",
+        "2345"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100,
+        "role": "letter"
+      },
+      "tags": [
+        "letter",
+        "greek",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠨⠞",
+      "unicode": "U+2828 U+281E"
+    },
+    {
+      "id": "letter_chi",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "χ",
+      "dots": [
+        "46",
+        "12346"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100,
+        "role": "letter"
+      },
+      "tags": [
+        "letter",
+        "greek",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠨⠯",
+      "unicode": "U+2828 U+282F"
+    },
+    {
+      "id": "letter_omega_lowercase",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "ω",
+      "dots": [
+        "46",
+        "2456"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100,
+        "role": "letter"
+      },
+      "tags": [
+        "letter",
+        "greek",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠨⠺",
+      "unicode": "U+2828 U+283A"
+    },
+    {
+      "id": "letter_omega_uppercase",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "Ω",
+      "dots": [
+        "46",
+        "6",
+        "2456"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100,
+        "role": "letter"
+      },
+      "tags": [
+        "letter",
+        "greek",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠨⠠⠺",
+      "unicode": "U+2828 U+2820 U+283A"
+    }
+  ],
+  "settings": {}
+}
