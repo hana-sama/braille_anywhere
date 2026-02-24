@@ -1,0 +1,221 @@
+{
+  "schema_version": "1.0",
+  "system_id": "nemeth",
+  "system_name": "Nemeth Code",
+  "locale": "en",
+  "braille_type": "math",
+  "cell_size": 6,
+  "entries": [
+    {
+      "id": "number_1",
+      "category": "numbers",
+      "subcategory": "digit",
+      "print": "1",
+      "dots": [
+        "1"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "numbers",
+      "tags": [
+        "numbers"
+      ],
+      "note": "",
+      "braille": "⠁",
+      "unicode": "U+2801"
+    },
+    {
+      "id": "number_2",
+      "category": "numbers",
+      "subcategory": "digit",
+      "print": "2",
+      "dots": [
+        "12"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "numbers",
+      "tags": [
+        "numbers"
+      ],
+      "note": "",
+      "braille": "⠃",
+      "unicode": "U+2803"
+    },
+    {
+      "id": "number_3",
+      "category": "numbers",
+      "subcategory": "digit",
+      "print": "3",
+      "dots": [
+        "14"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "numbers",
+      "tags": [
+        "numbers"
+      ],
+      "note": "",
+      "braille": "⠉",
+      "unicode": "U+2809"
+    },
+    {
+      "id": "number_4",
+      "category": "numbers",
+      "subcategory": "digit",
+      "print": "4",
+      "dots": [
+        "145"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "numbers",
+      "tags": [
+        "numbers"
+      ],
+      "note": "",
+      "braille": "⠙",
+      "unicode": "U+2819"
+    },
+    {
+      "id": "number_5",
+      "category": "numbers",
+      "subcategory": "digit",
+      "print": "5",
+      "dots": [
+        "15"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "numbers",
+      "tags": [
+        "numbers"
+      ],
+      "note": "",
+      "braille": "⠑",
+      "unicode": "U+2811"
+    },
+    {
+      "id": "number_6",
+      "category": "numbers",
+      "subcategory": "digit",
+      "print": "6",
+      "dots": [
+        "124"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "numbers",
+      "tags": [
+        "numbers"
+      ],
+      "note": "",
+      "braille": "⠋",
+      "unicode": "U+280B"
+    },
+    {
+      "id": "number_7",
+      "category": "numbers",
+      "subcategory": "digit",
+      "print": "7",
+      "dots": [
+        "1245"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "numbers",
+      "tags": [
+        "numbers"
+      ],
+      "note": "",
+      "braille": "⠛",
+      "unicode": "U+281B"
+    },
+    {
+      "id": "number_8",
+      "category": "numbers",
+      "subcategory": "digit",
+      "print": "8",
+      "dots": [
+        "125"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "numbers",
+      "tags": [
+        "numbers"
+      ],
+      "note": "",
+      "braille": "⠓",
+      "unicode": "U+2813"
+    },
+    {
+      "id": "number_9",
+      "category": "numbers",
+      "subcategory": "digit",
+      "print": "9",
+      "dots": [
+        "24"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "numbers",
+      "tags": [
+        "numbers"
+      ],
+      "note": "",
+      "braille": "⠊",
+      "unicode": "U+280A"
+    },
+    {
+      "id": "number_0",
+      "category": "numbers",
+      "subcategory": "digit",
+      "print": "0",
+      "dots": [
+        "245"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "numbers",
+      "tags": [
+        "numbers"
+      ],
+      "note": "",
+      "braille": "⠚",
+      "unicode": "U+281A"
+    }
+  ],
+  "settings": {}
+}

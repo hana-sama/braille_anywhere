@@ -1,0 +1,281 @@
+schema_version: "1.0"
+system_id: "kana" # ueb / kana / nemeth など
+system_name: "日本点字表記法2018年版"
+source: "Braille Authority of Japan"
+locale: "ja"
+braille_type: "kana" # grade1 / grade2 / math / kana
+cell_size: 6 # 6点 or 8点
+
+entries:
+  - id: "kana_period"
+    category: "kana"
+    subcategory: "punctuation"
+    print: "。"
+    dots: ["256"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "punctuation"
+    tags: ["kana", "punctuation"]
+    note: "標準点字と同じ"
+
+  - id: "kana_question"
+    category: "kana"
+    subcategory: "punctuation"
+    print: "？"
+    dots: ["26"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "punctuation"
+    tags: ["kana", "punctuation"]
+    note: "標準点字と同じ"
+
+  - id: "kana_exclamation"
+    category: "kana"
+    subcategory: "punctuation"
+    print: "！"
+    dots: ["235"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "punctuation"
+    tags: ["kana", "punctuation"]
+    note: "標準点字と同じ"
+
+  - id: "kana_comma"
+    category: "kana"
+    subcategory: "punctuation"
+    print: "、"
+    dots: ["56"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "punctuation"
+    tags: ["kana", "punctuation"]
+    note: "標準点字と同じ"
+
+  - id: "kana_bar_line"
+    category: "kana"
+    subcategory: "symbols"
+    print: "ー"
+    dots: ["25", "25"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "symbols"
+    tags: ["kana", "symbols"]
+    note: "標準点字と同じ"
+
+  - id: "kana_left_bracket"
+    category: "kana"
+    subcategory: "symbols"
+    print: "「"
+    dots: ["36"]
+    context:
+      position: "before"
+      requires_indicator: false
+      priority: 100
+    role: "open"
+    tags: ["kana", "symbols"]
+    note: "標準点字と同じ"
+
+  - id: "kana_right_bracket"
+    category: "kana"
+    subcategory: "symbols"
+    print: "」"
+    dots: ["36"]
+    context:
+      position: "after"
+      requires_indicator: false
+      priority: 100
+    role: "close"
+    tags: ["kana", "symbols"]
+    note: "標準点字と同じ"
+
+  - id: "kana_left_square_bracket"
+    category: "kana"
+    subcategory: "symbols"
+    print: "＜"
+    dots: ["56", "3"]
+    context:
+      position: "before"
+      requires_indicator: true
+      priority: 100
+    role: "open"
+    tags: ["kana", "symbols"]
+    note: "標準点字と同じ"
+
+  - id: "kana_right_square_bracket"
+    category: "kana"
+    subcategory: "symbols"
+    print: "＞"
+    dots: ["6", "23"]
+    context:
+      position: "after"
+      requires_indicator: true
+      priority: 100
+    role: "close"
+    tags: ["kana", "symbols"]
+    note: "標準点字と同じ"
+
+  - id: "kana_left_fat_bracket"
+    category: "kana"
+    subcategory: "symbols"
+    print: "『"
+    dots: ["56", "36"]
+    context:
+      position: "before"
+      requires_indicator: true
+      priority: 100
+    role: "open"
+    tags: ["kana", "symbols"]
+    note: "標準点字と同じ"
+
+  - id: "kana_right_fat_bracket"
+    category: "kana"
+    subcategory: "symbols"
+    print: "』"
+    dots: ["36", "23"]
+    context:
+      position: "after"
+      requires_indicator: true
+      priority: 100
+    role: "close"
+    tags: ["kana", "symbols"]
+    note: "標準点字と同じ"
+
+  - id: "kana_wave_dash"
+    category: "kana"
+    subcategory: "symbols"
+    print: "〜"
+    dots: ["36", "36"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "symbols"
+    tags: ["kana", "symbols"]
+    note: "標準点字と同じ"
+
+  - id: "kana_left_braille_translation"
+    category: "kana"
+    subcategory: "symbols"
+    print: "⠶⠶"
+    dots: ["2356", "2356"]
+    context:
+      position: "before"
+      requires_indicator: true
+      priority: 100
+    role: "open"
+    tags: ["kana", "symbols"]
+    note: "標準点字と同じ"
+
+  - id: "kana_right_braille_translation"
+    category: "kana"
+    subcategory: "symbols"
+    print: "⠶⠶"
+    dots: ["2356", "2356"]
+    context:
+      position: "after"
+      requires_indicator: true
+      priority: 100
+    role: "close"
+    tags: ["kana", "symbols"]
+    note: "標準点字と同じ"
+
+  - id: "kana_1st_star"
+    category: "kana"
+    subcategory: "symbols"
+    print: "☆"
+    dots: ["35", "35"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "symbols"
+    tags: ["kana", "symbols"]
+    note: "標準点字と同じ"
+
+  - id: "kana_2nd_star"
+    category: "kana"
+    subcategory: "symbols"
+    print: "★"
+    dots: ["26", "26"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "symbols"
+    tags: ["kana", "symbols"]
+    note: "標準点字と同じ"
+
+  - id: "kana_percent"
+    category: "kana"
+    subcategory: "symbols"
+    print: "％"
+    dots: ["56", "1234"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "symbols"
+    tags: ["kana", "symbols"]
+    note: "標準点字と同じ"
+
+  - id: "kana_and_sign"
+    category: "kana"
+    subcategory: "symbols"
+    print: "＆"
+    dots: ["56", "12346"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "symbols"
+    tags: ["kana", "symbols"]
+    note: "標準点字と同じ"
+
+  - id: "kana_at_sign"
+    category: "kana"
+    subcategory: "symbols"
+    print: "＠"
+    dots: ["56", "246"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "symbols"
+    tags: ["kana", "symbols"]
+    note: "標準点字と同じ"
+
+  - id: "kana_number_sign"
+    category: "kana"
+    subcategory: "symbols"
+    print: "＃"
+    dots: ["56", "146"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "symbols"
+    tags: ["kana", "symbols"]
+    note: "標準点字と同じ"
+
+  - id: "kana_asterisk"
+    category: "kana"
+    subcategory: "symbols"
+    print: "＊"
+    dots: ["56", "35"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "symbols"
+    tags: ["kana", "symbols"]
+    note: "標準点字と同じ"

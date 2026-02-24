@@ -1,0 +1,476 @@
+schema_version: "1.0"
+system_id: "kana"          # ueb / kana / nemeth など
+system_name: "日本点字表記法2018年版"
+source: "Braille Authority of Japan"
+locale: "ja"
+braille_type: "kana"    # grade1 / grade2 / math / kana
+cell_size: 6              # 6点 or 8点
+
+entries:
+  - id: "kana_kya"
+    category: "kana"
+    subcategory: "yoon"
+    print: "きゃ"
+    dots: ["4", "16"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "contracted sound"
+    tags: ["kana", "contracted sound"]
+    note: "標準点字と同じ"
+
+  - id: "kana_kyu"
+    category: "kana"
+    subcategory: "yoon"
+    print: "きゅ"
+    dots: ["4", "146"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "contracted sound"
+    tags: ["kana", "contracted sound"]
+    note: "標準点字と同じ"
+
+  - id: "kana_kyo"
+    category: "kana"
+    subcategory: "yoon"
+    print: "きょ"
+    dots: ["4", "246"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "contracted sound"
+    tags: ["kana", "contracted sound"]
+    note: "標準点字と同じ"
+
+  - id: "kana_sha"
+    category: "kana"
+    subcategory: "yoon"
+    print: "しゃ"
+    dots: ["4", "156"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "contracted sound"
+    tags: ["kana", "contracted sound"]
+    note: "標準点字と同じ"
+
+  - id: "kana_shu"
+    category: "kana"
+    subcategory: "yoon"
+    print: "しゅ"
+    dots: ["4", "1456"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "contracted sound"
+    tags: ["kana", "contracted sound"]
+    note: "標準点字と同じ"
+
+  - id: "kana_sho"
+    category: "kana"
+    subcategory: "yoon"
+    print: "しょ"
+    dots: ["4", "2456"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "contracted sound"
+    tags: ["kana", "contracted sound"]
+    note: "標準点字と同じ"
+
+  - id: "kana_cha"
+    category: "kana"
+    subcategory: "yoon"
+    print: "ちゃ"
+    dots: ["4", "135"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "contracted sound"
+    tags: ["kana", "contracted sound"]
+    note: "標準点字と同じ"
+
+  - id: "kana_chu"
+    category: "kana"
+    subcategory: "yoon"
+    print: "ちゅ"
+    dots: ["4", "1345"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "contracted sound"
+    tags: ["kana", "contracted sound"]
+    note: "標準点字と同じ"
+
+  - id: "kana_cho"
+    category: "kana"
+    subcategory: "yoon"
+    print: "ちょ"
+    dots: ["4", "2345"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "contracted sound"
+    tags: ["kana", "contracted sound"]
+    note: "標準点字と同じ"
+
+  - id: "kana_nya"
+    category: "kana"
+    subcategory: "yoon"
+    print: "にゃ"
+    dots: ["4", "13"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "contracted sound"
+    tags: ["kana", "contracted sound"]
+    note: "標準点字と同じ"
+
+  - id: "kana_nyu"
+    category: "kana"
+    subcategory: "yoon"
+    print: "にゅ"
+    dots: ["4", "134"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "contracted sound"
+    tags: ["kana", "contracted sound"]
+    note: "標準点字と同じ"
+
+  - id: "kana_nyo"
+    category: "kana"
+    subcategory: "yoon"
+    print: "にょ"
+    dots: ["4", "234"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "contracted sound"
+    tags: ["kana", "contracted sound"]
+    note: "標準点字と同じ"
+
+  - id: "kana_hya"
+    category: "kana"
+    subcategory: "yoon"
+    print: "ひゃ"
+    dots: ["4", "136"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "contracted sound"
+    tags: ["kana", "contracted sound"]
+    note: "標準点字と同じ"
+
+  - id: "kana_hyu"
+    category: "kana"
+    subcategory: "yoon"
+    print: "ひゅ"
+    dots: ["4", "1346"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "contracted sound"
+    tags: ["kana", "contracted sound"]
+    note: "標準点字と同じ"
+
+  - id: "kana_hyo"
+    category: "kana"
+    subcategory: "yoon"
+    print: "ひょ"
+    dots: ["4", "2346"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "contracted sound"
+    tags: ["kana", "contracted sound"]
+    note: "標準点字と同じ"
+
+  - id: "kana_mya"
+    category: "kana"
+    subcategory: "yoon"
+    print: "みゃ"
+    dots: ["4", "1356"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "contracted sound"
+    tags: ["kana", "contracted sound"]
+    note: "標準点字と同じ"
+
+  - id: "kana_myu"
+    category: "kana"
+    subcategory: "yoon"
+    print: "みゅ"
+    dots: ["4", "13456"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "contracted sound"
+    tags: ["kana", "contracted sound"]
+    note: "標準点字と同じ"
+
+  - id: "kana_myo"
+    category: "kana"
+    subcategory: "yoon"
+    print: "みょ"
+    dots: ["4", "23456"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "contracted sound"
+    tags: ["kana", "contracted sound"]
+    note: "標準点字と同じ"
+
+  - id: "kana_rya"
+    category: "kana"
+    subcategory: "yoon"
+    print: "りゃ"
+    dots: ["4", "15"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "contracted sound"
+    tags: ["kana", "contracted sound"]
+    note: "標準点字と同じ"
+
+  - id: "kana_ryu"
+    category: "kana"
+    subcategory: "yoon"
+    print: "りゅ"
+    dots: ["4", "145"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "contracted sound"
+    tags: ["kana", "contracted sound"]
+    note: "標準点字と同じ"
+
+  - id: "kana_ryo"
+    category: "kana"
+    subcategory: "yoon"
+    print: "りょ"
+    dots: ["4", "245"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "contracted sound"
+    tags: ["kana", "contracted sound"]
+    note: "標準点字と同じ"
+
+  - id: "kana_gya"
+    category: "kana"
+    subcategory: "yoon"
+    print: "ぎゃ"
+    dots: ["45", "16"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "contracted sound"
+    tags: ["kana", "contracted sound"]
+    note: "標準点字と同じ"
+
+  - id: "kana_gyu"
+    category: "kana"
+    subcategory: "yoon"
+    print: "ぎゅ"
+    dots: ["45", "146"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "contracted sound"
+    tags: ["kana", "contracted sound"]
+    note: "標準点字と同じ"
+
+  - id: "kana_gyo"
+    category: "kana"
+    subcategory: "yoon"
+    print: "ぎょ"
+    dots: ["45", "246"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "contracted sound"
+    tags: ["kana", "contracted sound"]
+    note: "標準点字と同じ"
+
+  - id: "kana_ja"
+    category: "kana"
+    subcategory: "yoon"
+    print: "じゃ"
+    dots: ["45", "156"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "contracted sound"
+    tags: ["kana", "contracted sound"]
+    note: "標準点字と同じ"
+
+  - id: "kana_ju"
+    category: "kana"
+    subcategory: "yoon"
+    print: "じゅ"
+    dots: ["45", "1456"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "contracted sound"
+    tags: ["kana", "contracted sound"]
+    note: "標準点字と同じ"
+
+  - id: "kana_jo"
+    category: "kana"
+    subcategory: "yoon"
+    print: "じょ"
+    dots: ["45", "2456"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "contracted sound"
+    tags: ["kana", "contracted sound"]
+    note: "標準点字と同じ"
+
+  - id: "kana_dya"
+    category: "kana"
+    subcategory: "yoon"
+    print: "ぢゃ"
+    dots: ["45", "135"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "contracted sound"
+    tags: ["kana", "contracted sound"]
+    note: "標準点字と同じ"
+
+  - id: "kana_dyu"
+    category: "kana"
+    subcategory: "yoon"
+    print: "ぢゅ"
+    dots: ["45", "1345"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "contracted sound"
+    tags: ["kana", "contracted sound"]
+    note: "標準点字と同じ"
+
+  - id: "kana_dyo"
+    category: "kana"
+    subcategory: "yoon"
+    print: "ぢょ"
+    dots: ["45", "2345"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "contracted sound"
+    tags: ["kana", "contracted sound"]
+    note: "標準点字と同じ"
+
+  - id: "kana_bya"
+    category: "kana"
+    subcategory: "yoon"
+    print: "びゃ"
+    dots: ["45", "136"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "contracted sound"
+    tags: ["kana", "contracted sound"]
+    note: "標準点字と同じ"
+
+  - id: "kana_byu"
+    category: "kana"
+    subcategory: "yoon"
+    print: "びゅ"
+    dots: ["45", "1346"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "contracted sound"
+    tags: ["kana", "contracted sound"]
+    note: "標準点字と同じ"
+
+  - id: "kana_byo"
+    category: "kana"
+    subcategory: "yoon"
+    print: "びょ"
+    dots: ["45", "2346"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "contracted sound"
+    tags: ["kana", "contracted sound"]
+    note: "標準点字と同じ"
+
+  - id: "kana_pya"
+    category: "kana"
+    subcategory: "yoon"
+    print: "ぴゃ"
+    dots: ["46", "136"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "contracted sound"
+    tags: ["kana", "contracted sound"]
+    note: "標準点字と同じ"
+
+  - id: "kana_pyu"
+    category: "kana"
+    subcategory: "yoon"
+    print: "ぴゅ"
+    dots: ["46", "1346"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "contracted sound"
+    tags: ["kana", "contracted sound"]
+    note: "標準点字と同じ"
+
+  - id: "kana_pyo"
+    category: "kana"
+    subcategory: "yoon"
+    print: "ぴょ"
+    dots: ["46", "2346"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "contracted sound"
+    tags: ["kana", "contracted sound"]
+    note: "標準点字と同じ"

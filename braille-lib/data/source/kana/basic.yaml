@@ -1,0 +1,791 @@
+# alphabet.yaml
+# シンプル仮名遣い点字マッピング（助詞は墨字そのまま、無駄符排除）
+# Unicode Brailleはスクリプトで自動生成
+# meta.yaml - システム共通のメタ情報
+schema_version: "1.0"
+system_id: "kana"          # ueb / kana / nemeth など
+system_name: "日本点字表記法2018年版"
+source: "Braille Authority of Japan"
+locale: "ja"
+braille_type: "kana"    # grade1 / grade2 / math / kana
+cell_size: 6              # 6点 or 8点
+
+entries:
+  - id: "kana_a"
+    category: "kana"
+    subcategory: "basic"
+    print: "あ"
+    dots: ["1"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "vowel"]
+    note: "標準点字と同じ"
+
+  - id: "kana_i"
+    category: "kana"
+    subcategory: "basic"
+    print: "い"
+    dots: ["12"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "vowel"]
+    note: "標準点字と同じ"
+
+  - id: "kana_u"
+    category: "kana"
+    subcategory: "basic"
+    print: "う"
+    dots: ["14"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "vowel"]
+    note: "標準点字と同じ"
+
+  - id: "kana_e"
+    category: "kana"
+    subcategory: "basic"
+    print: "え"
+    dots: ["124"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "vowel"]
+    note: "標準点字と同じ"
+
+  - id: "kana_o"
+    category: "kana"
+    subcategory: "basic"
+    print: "お"
+    dots: ["24"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "vowel"]
+    note: "標準点字と同じ"
+
+  - id: "kana_ka"
+    category: "kana"
+    subcategory: "basic"
+    print: "か"
+    dots: ["16"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "consonant"]
+    note: "標準点字と同じ"
+
+  - id: "kana_ki"
+    category: "kana"
+    subcategory: "basic"
+    print: "き"
+    dots: ["126"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "consonant"]
+    note: "標準点字と同じ"
+
+  - id: "kana_ku"
+    category: "kana"
+    subcategory: "basic"
+    print: "く"
+    dots: ["146"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "consonant"]
+    note: "標準点字と同じ"
+
+  - id: "kana_ke"
+    category: "kana"
+    subcategory: "basic"
+    print: "け"
+    dots: ["1246"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "consonant"]
+    note: "標準点字と同じ"
+
+  - id: "kana_ko"
+    category: "kana"
+    subcategory: "basic"
+    print: "こ"
+    dots: ["246"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "consonant"]
+    note: "標準点字と同じ"
+
+  - id: "kana_sa"
+    category: "kana"
+    subcategory: "basic"
+    print: "さ"
+    dots: ["156"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "consonant"]
+    note: "標準点字と同じ"
+
+  - id: "kana_si"
+    category: "kana"
+    subcategory: "basic"
+    print: "し"
+    dots: ["1256"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "consonant"]
+    note: "標準点字と同じ"
+
+  - id: "kana_su"
+    category: "kana"
+    subcategory: "basic"
+    print: "す"
+    dots: ["1456"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "consonant"]
+    note: "標準点字と同じ"
+
+  - id: "kana_se"
+    category: "kana"
+    subcategory: "basic"
+    print: "せ"
+    dots: ["12456"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "consonant"]
+    note: "標準点字と同じ"
+
+  - id: "kana_so"
+    category: "kana"
+    subcategory: "basic"
+    print: "そ"
+    dots: ["2456"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "consonant"]
+    note: "標準点字と同じ"
+
+  - id: "kana_ta"
+    category: "kana"
+    subcategory: "basic"
+    print: "た"
+    dots: ["135"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "consonant"]
+    note: "標準点字と同じ"
+
+  - id: "kana_chi"
+    category: "kana"
+    subcategory: "basic"
+    print: "ち"
+    dots: ["1235"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "consonant"]
+    note: "標準点字と同じ"
+
+  - id: "kana_tsu"
+    category: "kana"
+    subcategory: "basic"
+    print: "つ"
+    dots: ["1345"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "consonant"]
+    note: "標準点字と同じ"
+
+  - id: "kana_te"
+    category: "kana"
+    subcategory: "basic"
+    print: "て"
+    dots: ["12345"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "consonant"]
+    note: "標準点字と同じ"
+
+  - id: "kana_to"
+    category: "kana"
+    subcategory: "basic"
+    print: "と"
+    dots: ["2345"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "consonant"]
+    note: "標準点字と同じ"
+
+  - id: "kana_na"
+    category: "kana"
+    subcategory: "basic"
+    print: "な"
+    dots: ["13"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "consonant"]
+    note: "標準点字と同じ"
+
+  - id: "kana_ni"
+    category: "kana"
+    subcategory: "basic"
+    print: "に"
+    dots: ["123"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "consonant"]
+    note: "標準点字と同じ"
+
+  - id: "kana_nu"
+    category: "kana"
+    subcategory: "basic"
+    print: "ぬ"
+    dots: ["134"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "consonant"]
+    note: "標準点字と同じ"
+
+  - id: "kana_ne"
+    category: "kana"
+    subcategory: "basic"
+    print: "ね"
+    dots: ["1234"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "consonant"]
+    note: "標準点字と同じ"
+
+  - id: "kana_no"
+    category: "kana"
+    subcategory: "basic"
+    print: "の"
+    dots: ["234"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "consonant"]
+    note: "標準点字と同じ"
+
+  - id: "kana_ha"
+    category: "kana"
+    subcategory: "particle"
+    print: "は"            # 仮名遣いモードでは「は」そのまま
+    dots: ["136"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 90
+    role: "particle"
+    tags: ["助詞", "custom"]
+    note: "仮名遣いモード: は → ハ点字"
+
+  - id: "kana_hi"
+    category: "kana"
+    subcategory: "basic"
+    print: "ひ"
+    dots: ["1236"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "consonant"]
+    note: "標準点字と同じ"
+
+  - id: "kana_fu"
+    category: "kana"
+    subcategory: "basic"
+    print: "ふ"
+    dots: ["1346"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "consonant"]
+    note: "標準点字と同じ"
+
+  - id: "kana_he"
+    category: "kana"
+    subcategory: "basic"
+    print: "へ"
+    dots: ["12346"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "consonant"]
+    note: "標準点字と同じ"
+
+  - id: "kana_ho"
+    category: "kana"
+    subcategory: "basic"
+    print: "ほ"
+    dots: ["2346"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "consonant"]
+    note: "標準点字と同じ"
+
+  - id: "kana_ma"
+    category: "kana"
+    subcategory: "basic"
+    print: "ま"
+    dots: ["1356"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "consonant"]
+    note: "標準点字と同じ"
+
+  - id: "kana_mi"
+    category: "kana"
+    subcategory: "basic"
+    print: "み"
+    dots: ["12356"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "consonant"]
+    note: "標準点字と同じ"
+
+  - id: "kana_mu"
+    category: "kana"
+    subcategory: "basic"
+    print: "む"
+    dots: ["13456"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "consonant"]
+    note: "標準点字と同じ"
+
+  - id: "kana_me"
+    category: "kana"
+    subcategory: "basic"
+    print: "め"
+    dots: ["123456"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "consonant"]
+    note: "標準点字と同じ"
+
+  - id: "kana_mo"
+    category: "kana"
+    subcategory: "basic"
+    print: "も"
+    dots: ["23456"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "consonant"]
+    note: "標準点字と同じ"
+
+  - id: "kana_ya"
+    category: "kana"
+    subcategory: "basic"
+    print: "や"
+    dots: ["34"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "consonant"]
+    note: "標準点字と同じ"
+
+  - id: "kana_yu"
+    category: "kana"
+    subcategory: "basic"
+    print: "ゆ"
+    dots: ["346"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "consonant"]
+    note: "標準点字と同じ"
+
+  - id: "kana_yo"
+    category: "kana"
+    subcategory: "basic"
+    print: "よ"
+    dots: ["345"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "consonant"]
+    note: "標準点字と同じ"
+
+  - id: "kana_ra"
+    category: "kana"
+    subcategory: "basic"
+    print: "ら"
+    dots: ["15"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "consonant"]
+    note: "標準点字と同じ"
+
+  - id: "kana_ri"
+    category: "kana"
+    subcategory: "basic"
+    print: "り"
+    dots: ["125"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "consonant"]
+    note: "標準点字と同じ"
+
+  - id: "kana_ru"
+    category: "kana"
+    subcategory: "basic"
+    print: "る"
+    dots: ["145"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "consonant"]
+    note: "標準点字と同じ"
+
+  - id: "kana_re"
+    category: "kana"
+    subcategory: "basic"
+    print: "れ"
+    dots: ["1245"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "consonant"]
+    note: "標準点字と同じ"
+
+  - id: "kana_ro"
+    category: "kana"
+    subcategory: "basic"
+    print: "ろ"
+    dots: ["245"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "consonant"]
+    note: "標準点字と同じ"
+
+  - id: "kana_wa"
+    category: "kana"
+    subcategory: "basic"
+    print: "わ"
+    dots: ["3"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "consonant"]
+    note: "標準点字と同じ"
+
+  - id: "kana_wo"
+    category: "kana"
+    subcategory: "basic"
+    print: "を"
+    dots: ["35"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "consonant"]
+    note: "標準点字と同じ"
+
+  - id: "kana_un"
+    category: "kana"
+    subcategory: "basic"
+    print: "ん"
+    dots: ["356"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "consonant"]
+    note: "標準点字と同じ"
+
+  - id: "kana_txu"
+    category: "kana"
+    subcategory: "basic"
+    print: "っ"
+    dots: ["2"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "consonant"]
+    note: "標準点字と同じ"
+
+  - id: "kana_hyphen"
+    category: "kana"
+    subcategory: "basic"
+    print: "ー"
+    dots: ["25"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["kana", "hyphen"]
+    note: "標準点字と同じ"
+
+  - id: "kana_one"
+    category: "kana"
+    subcategory: "numbers"
+    print: "1"
+    dots: ["1"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "numbers"
+    tags: ["kana", "numbers"]
+    note: "標準点字と同じ"
+
+  - id: "kana_two"
+    category: "kana"
+    subcategory: "numbers"
+    print: "2"
+    dots: ["12"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "numbers"
+    tags: ["kana", "numbers"]
+    note: "標準点字と同じ"
+
+  - id: "kana_three"
+    category: "kana"
+    subcategory: "numbers"
+    print: "3"
+    dots: ["14"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "numbers"
+    tags: ["kana", "numbers"]
+    note: "標準点字と同じ"
+
+  - id: "kana_four"
+    category: "kana"
+    subcategory: "numbers"
+    print: "4"
+    dots: ["145"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "numbers"
+    tags: ["kana", "numbers"]
+    note: "標準点字と同じ"
+
+  - id: "kana_five"
+    category: "kana"
+    subcategory: "numbers"
+    print: "5"
+    dots: ["15"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "numbers"
+    tags: ["kana", "numbers"]
+    note: "標準点字と同じ"
+
+  - id: "kana_six"
+    category: "kana"
+    subcategory: "numbers"
+    print: "6"
+    dots: ["124"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "numbers"
+    tags: ["kana", "numbers"]
+    note: "標準点字と同じ"
+
+  - id: "kana_seven"
+    category: "kana"
+    subcategory: "numbers"
+    print: "7"
+    dots: ["1245"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "numbers"
+    tags: ["kana", "numbers"]
+    note: "標準点字と同じ"
+
+  - id: "kana_eight"
+    category: "kana"
+    subcategory: "numbers"
+    print: "8"
+    dots: ["125"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "numbers"
+    tags: ["kana", "numbers"]
+    note: "標準点字と同じ"
+
+  - id: "kana_nine"
+    category: "kana"
+    subcategory: "numbers"
+    print: "9"
+    dots: ["24"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "numbers"
+    tags: ["kana", "numbers"]
+    note: "標準点字と同じ"
+
+  - id: "kana_zero"
+    category: "kana"
+    subcategory: "numbers"
+    print: "0"
+    dots: ["245"]
+    context:
+      position: "any"
+      requires_indicator: true
+      priority: 100
+    role: "numbers"
+    tags: ["kana", "numbers"]
+    note: "標準点字と同じ"
+
+  - id: "letter_a"
+    category: "alphabet"
+    subcategory: "basic"
+    print: "a"
+    braille: "⠁"
+    dots: ["1"]
+    context:
+      position: "any"
+      requires_indicator: false
+      priority: 100
+    role: "letter"
+    tags: ["alphabet"]
+    note: ""
+
+  # 助詞「へ」: print: "へ", braille: "⠑" (標準はエだが、仮名遣いではヘに)
+  # 記号: つなぎ符とかはentriesに含めず、ルールとして排除（スペースで代用）
+
+settings:
+  default_mode: "modern-kana"  # 標準 / modern-kana / full-custom とか
+  word_separation: "space"     # スペースで分かち書き（標準の1-2マス空け排除）
+  exclude_symbols:             # 無駄ルール排除リスト
+    - tsunagi
+    - small-heading
+    - blank-symbol
