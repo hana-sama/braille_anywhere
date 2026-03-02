@@ -7,136 +7,18 @@
   "cell_size": 6,
   "entries": [
     {
-      "id": "indicator_nemeth_open",
-      "category": "indicator",
-      "subcategory": "basic",
-      "print": null,
-      "dots": [
-        "456",
-        "146"
-      ],
-      "context": {
-        "position": "any",
-        "requires_indicator": true,
-        "priority": 100,
-        "role": "open"
-      },
-      "tags": [
-        "indicator",
-        "nemeth code"
-      ],
-      "note": "",
-      "braille": "⠸⠩",
-      "unicode": "U+2838 U+2829"
-    },
-    {
-      "id": "indicator_nemeth_close",
-      "category": "indicator",
-      "subcategory": "basic",
-      "print": null,
-      "dots": [
-        "456",
-        "156"
-      ],
-      "context": {
-        "position": "any",
-        "requires_indicator": true,
-        "priority": 100,
-        "role": "close"
-      },
-      "tags": [
-        "indicator",
-        "nemeth code"
-      ],
-      "note": "",
-      "braille": "⠸⠱",
-      "unicode": "U+2838 U+2831"
-    },
-    {
-      "id": "indicator_nemeth_switch",
-      "category": "indicator",
-      "subcategory": "basic",
-      "print": null,
-      "dots": [
-        "6",
-        "3"
-      ],
-      "context": {
-        "position": "any",
-        "requires_indicator": true,
-        "priority": 100,
-        "role": "open"
-      },
-      "tags": [
-        "indicator",
-        "nemeth code"
-      ],
-      "note": "",
-      "braille": "⠠⠄",
-      "unicode": "U+2820 U+2804"
-    },
-    {
-      "id": "indicator_punctuation",
-      "category": "indicator",
-      "subcategory": "basic",
-      "print": null,
-      "dots": [
-        "456"
-      ],
-      "context": {
-        "position": "any",
-        "requires_indicator": true,
-        "priority": 100,
-        "role": "open"
-      },
-      "tags": [
-        "indicator",
-        "punctuation"
-      ],
-      "note": "",
-      "braille": "⠸",
-      "unicode": "U+2838"
-    },
-    {
-      "id": "indicator_grade1",
-      "category": "indicator",
-      "subcategory": "basic",
-      "print": null,
-      "dots": [
-        "56"
-      ],
-      "context": {
-        "position": "any",
-        "requires_indicator": true,
-        "priority": 100,
-        "role": "open"
-      },
-      "tags": [
-        "indicator",
-        "grade1"
-      ],
-      "note": "",
-      "braille": "⠰",
-      "unicode": "U+2830"
-    },
-    {
       "id": "punctuation_library_comma",
       "category": "punctuation",
       "subcategory": "basic",
       "print": ",",
-      "dots": [
-        "2"
-      ],
+      "dots": ["2"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "punctuation"
       },
-      "tags": [
-        "punctuation",
-        "literary comma"
-      ],
+      "tags": ["punctuation", "literary comma"],
       "note": "",
       "braille": "⠂",
       "unicode": "U+2802"
@@ -146,19 +28,14 @@
       "category": "punctuation",
       "subcategory": "basic",
       "print": ",",
-      "dots": [
-        "6"
-      ],
+      "dots": ["6"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "punctuation"
       },
-      "tags": [
-        "punctuation",
-        "mathematical comma"
-      ],
+      "tags": ["punctuation", "mathematical comma"],
       "note": "",
       "braille": "⠠",
       "unicode": "U+2820"
@@ -168,22 +45,14 @@
       "category": "punctuation",
       "subcategory": "basic",
       "print": "—",
-      "dots": [
-        "36",
-        "36",
-        "36",
-        "36"
-      ],
+      "dots": ["36", "36", "36", "36"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "punctuation"
       },
-      "tags": [
-        "punctuation",
-        "long dash"
-      ],
+      "tags": ["punctuation", "long dash"],
       "note": "",
       "braille": "⠤⠤⠤⠤",
       "unicode": "U+2824 U+2824 U+2824 U+2824"
@@ -193,21 +62,14 @@
       "category": "punctuation",
       "subcategory": "basic",
       "print": "…",
-      "dots": [
-        "3",
-        "3",
-        "3"
-      ],
+      "dots": ["3", "3", "3"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "punctuation"
       },
-      "tags": [
-        "punctuation",
-        "ellipsis"
-      ],
+      "tags": ["punctuation", "ellipsis"],
       "note": "",
       "braille": "⠄⠄⠄",
       "unicode": "U+2804 U+2804 U+2804"
@@ -217,19 +79,14 @@
       "category": "punctuation",
       "subcategory": "basic",
       "print": ".",
-      "dots": [
-        "46"
-      ],
+      "dots": ["46"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "punctuation"
       },
-      "tags": [
-        "punctuation",
-        "decimal point"
-      ],
+      "tags": ["punctuation", "decimal point"],
       "note": "",
       "braille": "⠨",
       "unicode": "U+2828"
@@ -239,19 +96,14 @@
       "category": "math",
       "subcategory": "operator",
       "print": "+",
-      "dots": [
-        "346"
-      ],
+      "dots": ["346"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "operator"
       },
-      "tags": [
-        "operator",
-        "plus"
-      ],
+      "tags": ["operator", "plus"],
       "note": "",
       "braille": "⠬",
       "unicode": "U+282C"
@@ -261,19 +113,14 @@
       "category": "math",
       "subcategory": "operator",
       "print": "-",
-      "dots": [
-        "36"
-      ],
+      "dots": ["36"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "operator"
       },
-      "tags": [
-        "operator",
-        "minus"
-      ],
+      "tags": ["operator", "minus"],
       "note": "",
       "braille": "⠤",
       "unicode": "U+2824"
@@ -283,20 +130,14 @@
       "category": "math",
       "subcategory": "operator",
       "print": "x",
-      "dots": [
-        "4",
-        "16"
-      ],
+      "dots": ["4", "16"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "operator"
       },
-      "tags": [
-        "operator",
-        "multiply cross"
-      ],
+      "tags": ["operator", "multiply cross"],
       "note": "",
       "braille": "⠈⠡",
       "unicode": "U+2808 U+2821"
@@ -306,19 +147,14 @@
       "category": "math",
       "subcategory": "operator",
       "print": "•",
-      "dots": [
-        "16"
-      ],
+      "dots": ["16"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "operator"
       },
-      "tags": [
-        "operator",
-        "multiply dot"
-      ],
+      "tags": ["operator", "multiply dot"],
       "note": "",
       "braille": "⠡",
       "unicode": "U+2821"
@@ -328,20 +164,14 @@
       "category": "math",
       "subcategory": "operator",
       "print": "÷",
-      "dots": [
-        "46",
-        "34"
-      ],
+      "dots": ["46", "34"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "operator"
       },
-      "tags": [
-        "operator",
-        "division"
-      ],
+      "tags": ["operator", "division"],
       "note": "",
       "braille": "⠨⠌",
       "unicode": "U+2828 U+280C"
@@ -351,20 +181,14 @@
       "category": "math",
       "subcategory": "symbol",
       "print": "±",
-      "dots": [
-        "346",
-        "36"
-      ],
+      "dots": ["346", "36"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "symbol"
       },
-      "tags": [
-        "symbol",
-        "plus or minus"
-      ],
+      "tags": ["symbol", "plus or minus"],
       "note": "",
       "braille": "⠬⠤",
       "unicode": "U+282C U+2824"
@@ -374,21 +198,14 @@
       "category": "math",
       "subcategory": "symbol",
       "print": "+-",
-      "dots": [
-        "346",
-        "5",
-        "36"
-      ],
+      "dots": ["346", "5", "36"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "symbol"
       },
-      "tags": [
-        "symbol",
-        "plus followed by minus"
-      ],
+      "tags": ["symbol", "plus followed by minus"],
       "note": "",
       "braille": "⠬⠐⠤",
       "unicode": "U+282C U+2810 U+2824"
@@ -398,20 +215,14 @@
       "category": "math",
       "subcategory": "symbol",
       "print": "*",
-      "dots": [
-        "4",
-        "3456"
-      ],
+      "dots": ["4", "3456"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "symbol"
       },
-      "tags": [
-        "symbol",
-        "asterisk"
-      ],
+      "tags": ["symbol", "asterisk"],
       "note": "",
       "braille": "⠈⠼",
       "unicode": "U+2808 U+283C"
@@ -421,20 +232,14 @@
       "category": "math",
       "subcategory": "symbol",
       "print": "#",
-      "dots": [
-        "46",
-        "3456"
-      ],
+      "dots": ["46", "3456"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "symbol"
       },
-      "tags": [
-        "symbol",
-        "crosshatch/pound sign"
-      ],
+      "tags": ["symbol", "crosshatch/pound sign"],
       "note": "",
       "braille": "⠨⠼",
       "unicode": "U+2828 U+283C"
@@ -444,20 +249,14 @@
       "category": "math",
       "subcategory": "symbol",
       "print": "°",
-      "dots": [
-        "46",
-        "16"
-      ],
+      "dots": ["46", "16"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "symbol"
       },
-      "tags": [
-        "symbol",
-        "hollow dot"
-      ],
+      "tags": ["symbol", "hollow dot"],
       "note": "",
       "braille": "⠨⠡",
       "unicode": "U+2828 U+2821"
@@ -467,20 +266,14 @@
       "category": "math",
       "subcategory": "symbol",
       "print": "U",
-      "dots": [
-        "46",
-        "346"
-      ],
+      "dots": ["46", "346"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "symbol"
       },
-      "tags": [
-        "symbol",
-        "union"
-      ],
+      "tags": ["symbol", "union"],
       "note": "",
       "braille": "⠨⠬",
       "unicode": "U+2828 U+282C"
@@ -490,19 +283,14 @@
       "category": "math",
       "subcategory": "symbol",
       "print": "|",
-      "dots": [
-        "1256"
-      ],
+      "dots": ["1256"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "symbol"
       },
-      "tags": [
-        "symbol",
-        "vertical bar"
-      ],
+      "tags": ["symbol", "vertical bar"],
       "note": "",
       "braille": "⠳",
       "unicode": "U+2833"
@@ -512,20 +300,14 @@
       "category": "math",
       "subcategory": "comparison",
       "print": "=",
-      "dots": [
-        "46",
-        "13"
-      ],
+      "dots": ["46", "13"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "comparison"
       },
-      "tags": [
-        "symbol",
-        "equals"
-      ],
+      "tags": ["symbol", "equals"],
       "note": "",
       "braille": "⠨⠅",
       "unicode": "U+2828 U+2805"
@@ -535,21 +317,14 @@
       "category": "math",
       "subcategory": "comparison",
       "print": "≠",
-      "dots": [
-        "34",
-        "46",
-        "13"
-      ],
+      "dots": ["34", "46", "13"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "comparison"
       },
-      "tags": [
-        "symbol",
-        "not equal to"
-      ],
+      "tags": ["symbol", "not equal to"],
       "note": "",
       "braille": "⠌⠨⠅",
       "unicode": "U+280C U+2828 U+2805"
@@ -559,22 +334,14 @@
       "category": "math",
       "subcategory": "comparison",
       "print": "≈",
-      "dots": [
-        "4",
-        "156",
-        "46",
-        "13"
-      ],
+      "dots": ["4", "156", "46", "13"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "comparison"
       },
-      "tags": [
-        "symbol",
-        "approximately equal"
-      ],
+      "tags": ["symbol", "approximately equal"],
       "note": "",
       "braille": "⠈⠱⠨⠅",
       "unicode": "U+2808 U+2831 U+2828 U+2805"
@@ -584,20 +351,14 @@
       "category": "math",
       "subcategory": "comparison",
       "print": "~",
-      "dots": [
-        "4",
-        "156"
-      ],
+      "dots": ["4", "156"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "comparison"
       },
-      "tags": [
-        "symbol",
-        "similar"
-      ],
+      "tags": ["symbol", "similar"],
       "note": "",
       "braille": "⠈⠱",
       "unicode": "U+2808 U+2831"
@@ -607,20 +368,14 @@
       "category": "math",
       "subcategory": "comparison",
       "print": ">",
-      "dots": [
-        "46",
-        "2"
-      ],
+      "dots": ["46", "2"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "comparison"
       },
-      "tags": [
-        "symbol",
-        "greater than"
-      ],
+      "tags": ["symbol", "greater than"],
       "note": "",
       "braille": "⠨⠂",
       "unicode": "U+2828 U+2802"
@@ -630,21 +385,14 @@
       "category": "math",
       "subcategory": "comparison",
       "print": "≧",
-      "dots": [
-        "46",
-        "2",
-        "156"
-      ],
+      "dots": ["46", "2", "156"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "comparison"
       },
-      "tags": [
-        "symbol",
-        "greater than or equal to"
-      ],
+      "tags": ["symbol", "greater than or equal to"],
       "note": "",
       "braille": "⠨⠂⠱",
       "unicode": "U+2828 U+2802 U+2831"
@@ -654,20 +402,14 @@
       "category": "math",
       "subcategory": "comparison",
       "print": "<",
-      "dots": [
-        "5",
-        "13"
-      ],
+      "dots": ["5", "13"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "comparison"
       },
-      "tags": [
-        "symbol",
-        "less than"
-      ],
+      "tags": ["symbol", "less than"],
       "note": "",
       "braille": "⠐⠅",
       "unicode": "U+2810 U+2805"
@@ -677,21 +419,14 @@
       "category": "math",
       "subcategory": "comparison",
       "print": "≦",
-      "dots": [
-        "5",
-        "13",
-        "156"
-      ],
+      "dots": ["5", "13", "156"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "comparison"
       },
-      "tags": [
-        "symbol",
-        "less than or equal to"
-      ],
+      "tags": ["symbol", "less than or equal to"],
       "note": "",
       "braille": "⠐⠅⠱",
       "unicode": "U+2810 U+2805 U+2831"
@@ -701,20 +436,14 @@
       "category": "math",
       "subcategory": "comparison",
       "print": "::",
-      "dots": [
-        "56",
-        "23"
-      ],
+      "dots": ["56", "23"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "comparison"
       },
-      "tags": [
-        "symbol",
-        "proportion"
-      ],
+      "tags": ["symbol", "proportion"],
       "note": "",
       "braille": "⠰⠆",
       "unicode": "U+2830 U+2806"
@@ -724,20 +453,14 @@
       "category": "math",
       "subcategory": "comparison",
       "print": ":",
-      "dots": [
-        "5",
-        "2"
-      ],
+      "dots": ["5", "2"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "comparison"
       },
-      "tags": [
-        "symbol",
-        "ratio"
-      ],
+      "tags": ["symbol", "ratio"],
       "note": "",
       "braille": "⠐⠂",
       "unicode": "U+2810 U+2802"
@@ -747,20 +470,14 @@
       "category": "math",
       "subcategory": "comparison",
       "print": "∩",
-      "dots": [
-        "1246",
-        "1"
-      ],
+      "dots": ["1246", "1"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "comparison"
       },
-      "tags": [
-        "symbol",
-        "arc"
-      ],
+      "tags": ["symbol", "arc"],
       "note": "",
       "braille": "⠫⠁",
       "unicode": "U+282B U+2801"
@@ -770,21 +487,14 @@
       "category": "math",
       "subcategory": "comparison",
       "print": "⊂",
-      "dots": [
-        "456",
-        "5",
-        "13"
-      ],
+      "dots": ["456", "5", "13"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "comparison"
       },
-      "tags": [
-        "symbol",
-        "inclusion"
-      ],
+      "tags": ["symbol", "inclusion"],
       "note": "",
       "braille": "⠸⠐⠅",
       "unicode": "U+2838 U+2810 U+2805"
@@ -794,20 +504,14 @@
       "category": "math",
       "subcategory": "comparison",
       "print": "∈",
-      "dots": [
-        "4",
-        "15"
-      ],
+      "dots": ["4", "15"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "comparison"
       },
-      "tags": [
-        "symbol",
-        "membership"
-      ],
+      "tags": ["symbol", "membership"],
       "note": "",
       "braille": "⠈⠑",
       "unicode": "U+2808 U+2811"
@@ -817,20 +521,14 @@
       "category": "math",
       "subcategory": "comparison",
       "print": "∥",
-      "dots": [
-        "1246",
-        "123"
-      ],
+      "dots": ["1246", "123"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "comparison"
       },
-      "tags": [
-        "symbol",
-        "parallel"
-      ],
+      "tags": ["symbol", "parallel"],
       "note": "",
       "braille": "⠫⠇",
       "unicode": "U+282B U+2807"
@@ -840,20 +538,14 @@
       "category": "math",
       "subcategory": "comparison",
       "print": "⊥",
-      "dots": [
-        "1246",
-        "1234"
-      ],
+      "dots": ["1246", "1234"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "comparison"
       },
-      "tags": [
-        "symbol",
-        "perpendicular"
-      ],
+      "tags": ["symbol", "perpendicular"],
       "note": "",
       "braille": "⠫⠏",
       "unicode": "U+282B U+280F"
@@ -863,22 +555,14 @@
       "category": "math",
       "subcategory": "comparison",
       "print": "←",
-      "dots": [
-        "1246",
-        "246",
-        "25",
-        "25"
-      ],
+      "dots": ["1246", "246", "25", "25"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "comparison"
       },
-      "tags": [
-        "symbol",
-        "left arrow"
-      ],
+      "tags": ["symbol", "left arrow"],
       "note": "",
       "braille": "⠫⠪⠒⠒",
       "unicode": "U+282B U+282A U+2812 U+2812"
@@ -888,22 +572,14 @@
       "category": "math",
       "subcategory": "comparison",
       "print": "→",
-      "dots": [
-        "1246",
-        "25",
-        "25",
-        "135"
-      ],
+      "dots": ["1246", "25", "25", "135"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "comparison"
       },
-      "tags": [
-        "symbol",
-        "right arrow"
-      ],
+      "tags": ["symbol", "right arrow"],
       "note": "",
       "braille": "⠫⠒⠒⠕",
       "unicode": "U+282B U+2812 U+2812 U+2815"
@@ -913,23 +589,14 @@
       "category": "math",
       "subcategory": "comparison",
       "print": "←→",
-      "dots": [
-        "1246",
-        "246",
-        "25",
-        "25",
-        "135"
-      ],
+      "dots": ["1246", "246", "25", "25", "135"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "comparison"
       },
-      "tags": [
-        "symbol",
-        "left and right arrow"
-      ],
+      "tags": ["symbol", "left and right arrow"],
       "note": "",
       "braille": "⠫⠪⠒⠒⠕",
       "unicode": "U+282B U+282A U+2812 U+2812 U+2815"
@@ -939,23 +606,14 @@
       "category": "math",
       "subcategory": "comparison",
       "print": "↑",
-      "dots": [
-        "1246",
-        "126",
-        "25",
-        "25",
-        "135"
-      ],
+      "dots": ["1246", "126", "25", "25", "135"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "comparison"
       },
-      "tags": [
-        "symbol",
-        "up arrow"
-      ],
+      "tags": ["symbol", "up arrow"],
       "note": "",
       "braille": "⠫⠣⠒⠒⠕",
       "unicode": "U+282B U+2823 U+2812 U+2812 U+2815"
@@ -965,23 +623,14 @@
       "category": "math",
       "subcategory": "comparison",
       "print": "↓",
-      "dots": [
-        "1246",
-        "146",
-        "25",
-        "25",
-        "135"
-      ],
+      "dots": ["1246", "146", "25", "25", "135"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "comparison"
       },
-      "tags": [
-        "symbol",
-        "down arrow"
-      ],
+      "tags": ["symbol", "down arrow"],
       "note": "",
       "braille": "⠫⠩⠒⠒⠕",
       "unicode": "U+282B U+2829 U+2812 U+2812 U+2815"
@@ -991,24 +640,14 @@
       "category": "math",
       "subcategory": "comparison",
       "print": "↕",
-      "dots": [
-        "1246",
-        "126",
-        "246",
-        "25",
-        "25",
-        "135"
-      ],
+      "dots": ["1246", "126", "246", "25", "25", "135"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "comparison"
       },
-      "tags": [
-        "symbol",
-        "up and down arrow"
-      ],
+      "tags": ["symbol", "up and down arrow"],
       "note": "",
       "braille": "⠫⠣⠪⠒⠒⠕",
       "unicode": "U+282B U+2823 U+282A U+2812 U+2812 U+2815"
@@ -1018,26 +657,14 @@
       "category": "math",
       "subcategory": "comparison",
       "print": "⇄",
-      "dots": [
-        "1246",
-        "25",
-        "25",
-        "135",
-        "1246",
-        "246",
-        "25",
-        "25"
-      ],
+      "dots": ["1246", "25", "25", "135", "1246", "246", "25", "25"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "comparison"
       },
-      "tags": [
-        "symbol",
-        "right arrow over left arrow"
-      ],
+      "tags": ["symbol", "right arrow over left arrow"],
       "note": "",
       "braille": "⠫⠒⠒⠕⠫⠪⠒⠒",
       "unicode": "U+282B U+2812 U+2812 U+2815 U+282B U+282A U+2812 U+2812"
@@ -1047,19 +674,14 @@
       "category": "math",
       "subcategory": "grouping",
       "print": "(",
-      "dots": [
-        "12356"
-      ],
+      "dots": ["12356"],
       "context": {
         "position": "any",
         "requires_indicator": false,
         "priority": 100,
         "role": "open"
       },
-      "tags": [
-        "symbol",
-        "left parenthesis"
-      ],
+      "tags": ["symbol", "left parenthesis"],
       "note": "",
       "braille": "⠷",
       "unicode": "U+2837"
@@ -1069,19 +691,14 @@
       "category": "math",
       "subcategory": "grouping",
       "print": ")",
-      "dots": [
-        "23456"
-      ],
+      "dots": ["23456"],
       "context": {
         "position": "any",
         "requires_indicator": false,
         "priority": 100,
         "role": "close"
       },
-      "tags": [
-        "symbol",
-        "right parenthesis"
-      ],
+      "tags": ["symbol", "right parenthesis"],
       "note": "",
       "braille": "⠾",
       "unicode": "U+283E"
@@ -1091,20 +708,14 @@
       "category": "math",
       "subcategory": "grouping",
       "print": "[",
-      "dots": [
-        "4",
-        "12356"
-      ],
+      "dots": ["4", "12356"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "open"
       },
-      "tags": [
-        "symbol",
-        "left square bracket"
-      ],
+      "tags": ["symbol", "left square bracket"],
       "note": "",
       "braille": "⠈⠷",
       "unicode": "U+2808 U+2837"
@@ -1114,20 +725,14 @@
       "category": "math",
       "subcategory": "grouping",
       "print": "]",
-      "dots": [
-        "4",
-        "23456"
-      ],
+      "dots": ["4", "23456"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "close"
       },
-      "tags": [
-        "symbol",
-        "right square bracket"
-      ],
+      "tags": ["symbol", "right square bracket"],
       "note": "",
       "braille": "⠈⠾",
       "unicode": "U+2808 U+283E"
@@ -1137,20 +742,14 @@
       "category": "math",
       "subcategory": "grouping",
       "print": "{",
-      "dots": [
-        "45",
-        "12356"
-      ],
+      "dots": ["45", "12356"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "open"
       },
-      "tags": [
-        "symbol",
-        "left brace"
-      ],
+      "tags": ["symbol", "left brace"],
       "note": "",
       "braille": "⠘⠷",
       "unicode": "U+2818 U+2837"
@@ -1160,20 +759,14 @@
       "category": "math",
       "subcategory": "grouping",
       "print": "}",
-      "dots": [
-        "45",
-        "23456"
-      ],
+      "dots": ["45", "23456"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "close"
       },
-      "tags": [
-        "symbol",
-        "right brace"
-      ],
+      "tags": ["symbol", "right brace"],
       "note": "",
       "braille": "⠘⠾",
       "unicode": "U+2818 U+283E"
@@ -1183,21 +776,14 @@
       "category": "math",
       "subcategory": "grouping",
       "print": "<",
-      "dots": [
-        "46",
-        "46",
-        "12356"
-      ],
+      "dots": ["46", "46", "12356"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "open"
       },
-      "tags": [
-        "symbol",
-        "left angle bracket"
-      ],
+      "tags": ["symbol", "left angle bracket"],
       "note": "",
       "braille": "⠨⠨⠷",
       "unicode": "U+2828 U+2828 U+2837"
@@ -1207,21 +793,14 @@
       "category": "math",
       "subcategory": "grouping",
       "print": ">",
-      "dots": [
-        "46",
-        "46",
-        "23456"
-      ],
+      "dots": ["46", "46", "23456"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "close"
       },
-      "tags": [
-        "symbol",
-        "right angle bracket"
-      ],
+      "tags": ["symbol", "right angle bracket"],
       "note": "",
       "braille": "⠨⠨⠾",
       "unicode": "U+2828 U+2828 U+283E"
@@ -1231,19 +810,14 @@
       "category": "math",
       "subcategory": "indicator",
       "print": null,
-      "dots": [
-        "1456"
-      ],
+      "dots": ["1456"],
       "context": {
         "position": "any",
         "requires_indicator": false,
         "priority": 100,
         "role": "open"
       },
-      "tags": [
-        "indicator",
-        "open simple fraction"
-      ],
+      "tags": ["indicator", "open simple fraction"],
       "note": "",
       "braille": "⠹",
       "unicode": "U+2839"
@@ -1253,19 +827,14 @@
       "category": "math",
       "subcategory": "indicator",
       "print": null,
-      "dots": [
-        "3456"
-      ],
+      "dots": ["3456"],
       "context": {
         "position": "any",
         "requires_indicator": false,
         "priority": 100,
         "role": "close"
       },
-      "tags": [
-        "indicator",
-        "close simple fraction"
-      ],
+      "tags": ["indicator", "close simple fraction"],
       "note": "",
       "braille": "⠼",
       "unicode": "U+283C"
@@ -1275,20 +844,14 @@
       "category": "math",
       "subcategory": "indicator",
       "print": null,
-      "dots": [
-        "456",
-        "1456"
-      ],
+      "dots": ["456", "1456"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "open"
       },
-      "tags": [
-        "indicator",
-        "open mixed number"
-      ],
+      "tags": ["indicator", "open mixed number"],
       "note": "",
       "braille": "⠸⠹",
       "unicode": "U+2838 U+2839"
@@ -1298,20 +861,14 @@
       "category": "math",
       "subcategory": "indicator",
       "print": null,
-      "dots": [
-        "456",
-        "3456"
-      ],
+      "dots": ["456", "3456"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "close"
       },
-      "tags": [
-        "indicator",
-        "close mixed number"
-      ],
+      "tags": ["indicator", "close mixed number"],
       "note": "",
       "braille": "⠸⠼",
       "unicode": "U+2838 U+283C"
@@ -1321,20 +878,14 @@
       "category": "math",
       "subcategory": "indicator",
       "print": null,
-      "dots": [
-        "6",
-        "1456"
-      ],
+      "dots": ["6", "1456"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "open"
       },
-      "tags": [
-        "indicator",
-        "open complex fraction"
-      ],
+      "tags": ["indicator", "open complex fraction"],
       "note": "",
       "braille": "⠠⠹",
       "unicode": "U+2820 U+2839"
@@ -1344,20 +895,14 @@
       "category": "math",
       "subcategory": "indicator",
       "print": null,
-      "dots": [
-        "6",
-        "3456"
-      ],
+      "dots": ["6", "3456"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "close"
       },
-      "tags": [
-        "indicator",
-        "close complex fraction"
-      ],
+      "tags": ["indicator", "close complex fraction"],
       "note": "",
       "braille": "⠠⠼",
       "unicode": "U+2820 U+283C"
@@ -1367,19 +912,14 @@
       "category": "math",
       "subcategory": "indicator",
       "print": null,
-      "dots": [
-        "34"
-      ],
+      "dots": ["34"],
       "context": {
         "position": "any",
         "requires_indicator": false,
         "priority": 100,
         "role": "simple horizontal fraction line"
       },
-      "tags": [
-        "indicator",
-        "simple horizontal fraction line"
-      ],
+      "tags": ["indicator", "simple horizontal fraction line"],
       "note": "",
       "braille": "⠌",
       "unicode": "U+280C"
@@ -1389,20 +929,14 @@
       "category": "math",
       "subcategory": "indicator",
       "print": null,
-      "dots": [
-        "6",
-        "34"
-      ],
+      "dots": ["6", "34"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "complex horizontal fraction line"
       },
-      "tags": [
-        "indicator",
-        "complex horizontal fraction line"
-      ],
+      "tags": ["indicator", "complex horizontal fraction line"],
       "note": "",
       "braille": "⠠⠌",
       "unicode": "U+2820 U+280C"
@@ -1412,20 +946,14 @@
       "category": "math",
       "subcategory": "indicator",
       "print": null,
-      "dots": [
-        "456",
-        "34"
-      ],
+      "dots": ["456", "34"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "diagonal fraction line"
       },
-      "tags": [
-        "indicator",
-        "diagonal fraction line"
-      ],
+      "tags": ["indicator", "diagonal fraction line"],
       "note": "",
       "braille": "⠸⠌",
       "unicode": "U+2838 U+280C"
@@ -1435,19 +963,14 @@
       "category": "math",
       "subcategory": "indicator",
       "print": null,
-      "dots": [
-        "5"
-      ],
+      "dots": ["5"],
       "context": {
         "position": "any",
         "requires_indicator": false,
         "priority": 100,
         "role": "baseline"
       },
-      "tags": [
-        "indicator",
-        "baseline"
-      ],
+      "tags": ["indicator", "baseline"],
       "note": "",
       "braille": "⠐",
       "unicode": "U+2810"
@@ -1457,19 +980,14 @@
       "category": "math",
       "subcategory": "indicator",
       "print": null,
-      "dots": [
-        "45"
-      ],
+      "dots": ["45"],
       "context": {
         "position": "any",
         "requires_indicator": false,
         "priority": 100,
         "role": "superscript"
       },
-      "tags": [
-        "indicator",
-        "superscript"
-      ],
+      "tags": ["indicator", "superscript"],
       "note": "",
       "braille": "⠘",
       "unicode": "U+2818"
@@ -1479,20 +997,14 @@
       "category": "math",
       "subcategory": "indicator",
       "print": null,
-      "dots": [
-        "45",
-        "45"
-      ],
+      "dots": ["45", "45"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "superscript"
       },
-      "tags": [
-        "indicator",
-        "superscript with superscript"
-      ],
+      "tags": ["indicator", "superscript with superscript"],
       "note": "",
       "braille": "⠘⠘",
       "unicode": "U+2818 U+2818"
@@ -1502,21 +1014,14 @@
       "category": "math",
       "subcategory": "indicator",
       "print": null,
-      "dots": [
-        "45",
-        "45",
-        "45"
-      ],
+      "dots": ["45", "45", "45"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "superscript"
       },
-      "tags": [
-        "indicator",
-        "superscript with superscript with superscript"
-      ],
+      "tags": ["indicator", "superscript with superscript with superscript"],
       "note": "",
       "braille": "⠘⠘⠘",
       "unicode": "U+2818 U+2818 U+2818"
@@ -1526,19 +1031,14 @@
       "category": "math",
       "subcategory": "indicator",
       "print": null,
-      "dots": [
-        "56"
-      ],
+      "dots": ["56"],
       "context": {
         "position": "any",
         "requires_indicator": false,
         "priority": 100,
         "role": "subscript"
       },
-      "tags": [
-        "indicator",
-        "subscript"
-      ],
+      "tags": ["indicator", "subscript"],
       "note": "",
       "braille": "⠰",
       "unicode": "U+2830"
@@ -1548,20 +1048,14 @@
       "category": "math",
       "subcategory": "indicator",
       "print": null,
-      "dots": [
-        "56",
-        "56"
-      ],
+      "dots": ["56", "56"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "subscript"
       },
-      "tags": [
-        "indicator",
-        "subscript with subscript"
-      ],
+      "tags": ["indicator", "subscript with subscript"],
       "note": "",
       "braille": "⠰⠰",
       "unicode": "U+2830 U+2830"
@@ -1571,21 +1065,14 @@
       "category": "math",
       "subcategory": "indicator",
       "print": null,
-      "dots": [
-        "56",
-        "56",
-        "56"
-      ],
+      "dots": ["56", "56", "56"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "subscript"
       },
-      "tags": [
-        "indicator",
-        "subscript with subscript with subscript"
-      ],
+      "tags": ["indicator", "subscript with subscript with subscript"],
       "note": "",
       "braille": "⠰⠰⠰",
       "unicode": "U+2830 U+2830 U+2830"
@@ -1595,20 +1082,14 @@
       "category": "math",
       "subcategory": "indicator",
       "print": null,
-      "dots": [
-        "45",
-        "56"
-      ],
+      "dots": ["45", "56"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "superscript"
       },
-      "tags": [
-        "indicator",
-        "superscript with subscript"
-      ],
+      "tags": ["indicator", "superscript with subscript"],
       "note": "",
       "braille": "⠘⠰",
       "unicode": "U+2818 U+2830"
@@ -1618,21 +1099,14 @@
       "category": "math",
       "subcategory": "indicator",
       "print": null,
-      "dots": [
-        "45",
-        "56",
-        "56"
-      ],
+      "dots": ["45", "56", "56"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "superscript"
       },
-      "tags": [
-        "indicator",
-        "superscript with subscript with subscript"
-      ],
+      "tags": ["indicator", "superscript with subscript with subscript"],
       "note": "",
       "braille": "⠘⠰⠰",
       "unicode": "U+2818 U+2830 U+2830"
@@ -1642,21 +1116,14 @@
       "category": "math",
       "subcategory": "indicator",
       "print": null,
-      "dots": [
-        "45",
-        "56",
-        "45"
-      ],
+      "dots": ["45", "56", "45"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "superscript"
       },
-      "tags": [
-        "indicator",
-        "superscript with subscript"
-      ],
+      "tags": ["indicator", "superscript with subscript"],
       "note": "",
       "braille": "⠘⠰⠘",
       "unicode": "U+2818 U+2830 U+2818"
@@ -1666,21 +1133,14 @@
       "category": "math",
       "subcategory": "indicator",
       "print": null,
-      "dots": [
-        "45",
-        "45",
-        "56"
-      ],
+      "dots": ["45", "45", "56"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "superscript"
       },
-      "tags": [
-        "indicator",
-        "superscript with superscript with subscript"
-      ],
+      "tags": ["indicator", "superscript with superscript with subscript"],
       "note": "",
       "braille": "⠘⠘⠰",
       "unicode": "U+2818 U+2818 U+2830"
@@ -1690,20 +1150,14 @@
       "category": "math",
       "subcategory": "indicator",
       "print": null,
-      "dots": [
-        "56",
-        "45"
-      ],
+      "dots": ["56", "45"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "subscript"
       },
-      "tags": [
-        "indicator",
-        "subscript with superscript"
-      ],
+      "tags": ["indicator", "subscript with superscript"],
       "note": "",
       "braille": "⠰⠘",
       "unicode": "U+2830 U+2818"
@@ -1713,21 +1167,14 @@
       "category": "math",
       "subcategory": "indicator",
       "print": null,
-      "dots": [
-        "56",
-        "45",
-        "45"
-      ],
+      "dots": ["56", "45", "45"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "subscript"
       },
-      "tags": [
-        "indicator",
-        "subscript with superscript with superscript"
-      ],
+      "tags": ["indicator", "subscript with superscript with superscript"],
       "note": "",
       "braille": "⠰⠘⠘",
       "unicode": "U+2830 U+2818 U+2818"
@@ -1737,21 +1184,14 @@
       "category": "math",
       "subcategory": "indicator",
       "print": null,
-      "dots": [
-        "56",
-        "45",
-        "56"
-      ],
+      "dots": ["56", "45", "56"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "subscript"
       },
-      "tags": [
-        "indicator",
-        "subscript with superscript with subscript"
-      ],
+      "tags": ["indicator", "subscript with superscript with subscript"],
       "note": "",
       "braille": "⠰⠘⠰",
       "unicode": "U+2830 U+2818 U+2830"
@@ -1761,21 +1201,14 @@
       "category": "math",
       "subcategory": "indicator",
       "print": null,
-      "dots": [
-        "56",
-        "56",
-        "45"
-      ],
+      "dots": ["56", "56", "45"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "subscript"
       },
-      "tags": [
-        "indicator",
-        "subscript with subscript with superscript"
-      ],
+      "tags": ["indicator", "subscript with subscript with superscript"],
       "note": "",
       "braille": "⠰⠰⠘",
       "unicode": "U+2830 U+2830 U+2818"
@@ -1785,19 +1218,14 @@
       "category": "math",
       "subcategory": "symbol",
       "print": "√",
-      "dots": [
-        "345"
-      ],
+      "dots": ["345"],
       "context": {
         "position": "any",
         "requires_indicator": false,
         "priority": 100,
         "role": "symbol"
       },
-      "tags": [
-        "symbol",
-        "radical sign"
-      ],
+      "tags": ["symbol", "radical sign"],
       "note": "",
       "braille": "⠜",
       "unicode": "U+281C"
@@ -1807,19 +1235,14 @@
       "category": "math",
       "subcategory": "indicator",
       "print": null,
-      "dots": [
-        "126"
-      ],
+      "dots": ["126"],
       "context": {
         "position": "any",
         "requires_indicator": false,
         "priority": 100,
         "role": "indicator"
       },
-      "tags": [
-        "indicator",
-        "index of radical"
-      ],
+      "tags": ["indicator", "index of radical"],
       "note": "",
       "braille": "⠣",
       "unicode": "U+2823"
@@ -1829,19 +1252,14 @@
       "category": "math",
       "subcategory": "symbol",
       "print": "√",
-      "dots": [
-        "46"
-      ],
+      "dots": ["46"],
       "context": {
         "position": "any",
         "requires_indicator": false,
         "priority": 100,
         "role": "symbol"
       },
-      "tags": [
-        "symbol",
-        "first inner radical"
-      ],
+      "tags": ["symbol", "first inner radical"],
       "note": "",
       "braille": "⠨",
       "unicode": "U+2828"
@@ -1851,21 +1269,14 @@
       "category": "math",
       "subcategory": "symbol",
       "print": "√",
-      "dots": [
-        "46",
-        "46",
-        "46"
-      ],
+      "dots": ["46", "46", "46"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "symbol"
       },
-      "tags": [
-        "symbol",
-        "third inner radical"
-      ],
+      "tags": ["symbol", "third inner radical"],
       "note": "",
       "braille": "⠨⠨⠨",
       "unicode": "U+2828 U+2828 U+2828"
@@ -1875,19 +1286,14 @@
       "category": "math",
       "subcategory": "indicator",
       "print": null,
-      "dots": [
-        "12456"
-      ],
+      "dots": ["12456"],
       "context": {
         "position": "any",
         "requires_indicator": false,
         "priority": 100,
         "role": "indicator"
       },
-      "tags": [
-        "indicator",
-        "termination"
-      ],
+      "tags": ["indicator", "termination"],
       "note": "",
       "braille": "⠻",
       "unicode": "U+283B"
@@ -1897,20 +1303,14 @@
       "category": "math",
       "subcategory": "symbol",
       "print": "∠",
-      "dots": [
-        "1246",
-        "246"
-      ],
+      "dots": ["1246", "246"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "symbol"
       },
-      "tags": [
-        "symbol",
-        "angle"
-      ],
+      "tags": ["symbol", "angle"],
       "note": "",
       "braille": "⠫⠪",
       "unicode": "U+282B U+282A"
@@ -1920,20 +1320,14 @@
       "category": "math",
       "subcategory": "symbol",
       "print": "U+25CB",
-      "dots": [
-        "1246",
-        "16"
-      ],
+      "dots": ["1246", "16"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "symbol"
       },
-      "tags": [
-        "symbol",
-        "circle"
-      ],
+      "tags": ["symbol", "circle"],
       "note": "",
       "braille": "⠫⠡",
       "unicode": "U+282B U+2821"
@@ -1943,20 +1337,14 @@
       "category": "math",
       "subcategory": "symbol",
       "print": "U+25C7",
-      "dots": [
-        "1246",
-        "145"
-      ],
+      "dots": ["1246", "145"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "symbol"
       },
-      "tags": [
-        "symbol",
-        "diamond"
-      ],
+      "tags": ["symbol", "diamond"],
       "note": "",
       "braille": "⠫⠙",
       "unicode": "U+282B U+2819"
@@ -1966,20 +1354,14 @@
       "category": "math",
       "subcategory": "symbol",
       "print": "U+2B2D",
-      "dots": [
-        "1246",
-        "15"
-      ],
+      "dots": ["1246", "15"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "symbol"
       },
-      "tags": [
-        "symbol",
-        "ellipse"
-      ],
+      "tags": ["symbol", "ellipse"],
       "note": "",
       "braille": "⠫⠑",
       "unicode": "U+282B U+2811"
@@ -1989,20 +1371,14 @@
       "category": "math",
       "subcategory": "symbol",
       "print": "U+2B21",
-      "dots": [
-        "1246",
-        "235"
-      ],
+      "dots": ["1246", "235"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "symbol"
       },
-      "tags": [
-        "symbol",
-        "hexagon"
-      ],
+      "tags": ["symbol", "hexagon"],
       "note": "",
       "braille": "⠫⠖",
       "unicode": "U+282B U+2816"
@@ -2012,20 +1388,14 @@
       "category": "math",
       "subcategory": "symbol",
       "print": "U+25B1",
-      "dots": [
-        "1246",
-        "1245"
-      ],
+      "dots": ["1246", "1245"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "symbol"
       },
-      "tags": [
-        "symbol",
-        "parallelogram"
-      ],
+      "tags": ["symbol", "parallelogram"],
       "note": "",
       "braille": "⠫⠛",
       "unicode": "U+282B U+281B"
@@ -2035,20 +1405,14 @@
       "category": "math",
       "subcategory": "symbol",
       "print": "U+2B54",
-      "dots": [
-        "1246",
-        "26"
-      ],
+      "dots": ["1246", "26"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "symbol"
       },
-      "tags": [
-        "symbol",
-        "pentagon"
-      ],
+      "tags": ["symbol", "pentagon"],
       "note": "",
       "braille": "⠫⠢",
       "unicode": "U+282B U+2822"
@@ -2058,20 +1422,14 @@
       "category": "math",
       "subcategory": "symbol",
       "print": null,
-      "dots": [
-        "1246",
-        "12345"
-      ],
+      "dots": ["1246", "12345"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "symbol"
       },
-      "tags": [
-        "symbol",
-        "quadrilateral"
-      ],
+      "tags": ["symbol", "quadrilateral"],
       "note": "",
       "braille": "⠫⠟",
       "unicode": "U+282B U+281F"
@@ -2081,20 +1439,14 @@
       "category": "math",
       "subcategory": "symbol",
       "print": "U+25AD",
-      "dots": [
-        "1246",
-        "1235"
-      ],
+      "dots": ["1246", "1235"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "symbol"
       },
-      "tags": [
-        "symbol",
-        "rectangle"
-      ],
+      "tags": ["symbol", "rectangle"],
       "note": "",
       "braille": "⠫⠗",
       "unicode": "U+282B U+2817"
@@ -2104,20 +1456,14 @@
       "category": "math",
       "subcategory": "symbol",
       "print": "U+25CA",
-      "dots": [
-        "1246",
-        "125"
-      ],
+      "dots": ["1246", "125"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "symbol"
       },
-      "tags": [
-        "symbol",
-        "rhombus"
-      ],
+      "tags": ["symbol", "rhombus"],
       "note": "",
       "braille": "⠫⠓",
       "unicode": "U+282B U+2813"
@@ -2127,20 +1473,14 @@
       "category": "math",
       "subcategory": "symbol",
       "print": "U+2B50",
-      "dots": [
-        "1246",
-        "234"
-      ],
+      "dots": ["1246", "234"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "symbol"
       },
-      "tags": [
-        "symbol",
-        "star"
-      ],
+      "tags": ["symbol", "star"],
       "note": "",
       "braille": "⠫⠎",
       "unicode": "U+282B U+280E"
@@ -2150,20 +1490,14 @@
       "category": "math",
       "subcategory": "symbol",
       "print": "U+23E2",
-      "dots": [
-        "1246",
-        "1356"
-      ],
+      "dots": ["1246", "1356"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "symbol"
       },
-      "tags": [
-        "symbol",
-        "trapezoid"
-      ],
+      "tags": ["symbol", "trapezoid"],
       "note": "",
       "braille": "⠫⠵",
       "unicode": "U+282B U+2835"
@@ -2173,20 +1507,14 @@
       "category": "math",
       "subcategory": "symbol",
       "print": "U+25B3",
-      "dots": [
-        "1246",
-        "2345"
-      ],
+      "dots": ["1246", "2345"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "symbol"
       },
-      "tags": [
-        "symbol",
-        "triangle"
-      ],
+      "tags": ["symbol", "triangle"],
       "note": "",
       "braille": "⠫⠞",
       "unicode": "U+282B U+281E"
@@ -2196,19 +1524,14 @@
       "category": "math",
       "subcategory": "modifier",
       "print": null,
-      "dots": [
-        "5"
-      ],
+      "dots": ["5"],
       "context": {
         "position": "any",
         "requires_indicator": false,
         "priority": 100,
         "role": "modifier"
       },
-      "tags": [
-        "modifier",
-        "multipurpose"
-      ],
+      "tags": ["modifier", "multipurpose"],
       "note": "",
       "braille": "⠐",
       "unicode": "U+2810"
@@ -2218,19 +1541,14 @@
       "category": "math",
       "subcategory": "modifier",
       "print": null,
-      "dots": [
-        "126"
-      ],
+      "dots": ["126"],
       "context": {
         "position": "any",
         "requires_indicator": false,
         "priority": 100,
         "role": "modifier"
       },
-      "tags": [
-        "modifier",
-        "directly over"
-      ],
+      "tags": ["modifier", "directly over"],
       "note": "",
       "braille": "⠣",
       "unicode": "U+2823"
@@ -2240,19 +1558,14 @@
       "category": "math",
       "subcategory": "modifier",
       "print": null,
-      "dots": [
-        "126"
-      ],
+      "dots": ["126"],
       "context": {
         "position": "any",
         "requires_indicator": false,
         "priority": 100,
         "role": "modifier"
       },
-      "tags": [
-        "modifier",
-        "directly under"
-      ],
+      "tags": ["modifier", "directly under"],
       "note": "",
       "braille": "⠣",
       "unicode": "U+2823"
@@ -2262,19 +1575,14 @@
       "category": "math",
       "subcategory": "modifier",
       "print": null,
-      "dots": [
-        "12456"
-      ],
+      "dots": ["12456"],
       "context": {
         "position": "any",
         "requires_indicator": false,
         "priority": 100,
         "role": "modifier"
       },
-      "tags": [
-        "modifier",
-        "termination"
-      ],
+      "tags": ["modifier", "termination"],
       "note": "",
       "braille": "⠻",
       "unicode": "U+283B"
@@ -2284,20 +1592,14 @@
       "category": "math",
       "subcategory": "symbol",
       "print": "¢",
-      "dots": [
-        "4",
-        "14"
-      ],
+      "dots": ["4", "14"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "symbol"
       },
-      "tags": [
-        "symbol",
-        "cent"
-      ],
+      "tags": ["symbol", "cent"],
       "note": "",
       "braille": "⠈⠉",
       "unicode": "U+2808 U+2809"
@@ -2307,20 +1609,14 @@
       "category": "math",
       "subcategory": "symbol",
       "print": "$",
-      "dots": [
-        "4",
-        "234"
-      ],
+      "dots": ["4", "234"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "symbol"
       },
-      "tags": [
-        "symbol",
-        "dollar"
-      ],
+      "tags": ["symbol", "dollar"],
       "note": "",
       "braille": "⠈⠎",
       "unicode": "U+2808 U+280E"
@@ -2330,21 +1626,14 @@
       "category": "math",
       "subcategory": "symbol",
       "print": "°",
-      "dots": [
-        "45",
-        "46",
-        "16"
-      ],
+      "dots": ["45", "46", "16"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "symbol"
       },
-      "tags": [
-        "symbol",
-        "degree"
-      ],
+      "tags": ["symbol", "degree"],
       "note": "",
       "braille": "⠘⠨⠡",
       "unicode": "U+2818 U+2828 U+2821"
@@ -2354,20 +1643,14 @@
       "category": "math",
       "subcategory": "symbol",
       "print": "%",
-      "dots": [
-        "4",
-        "356"
-      ],
+      "dots": ["4", "356"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "symbol"
       },
-      "tags": [
-        "symbol",
-        "percent"
-      ],
+      "tags": ["symbol", "percent"],
       "note": "",
       "braille": "⠈⠴",
       "unicode": "U+2808 U+2834"
@@ -2377,19 +1660,14 @@
       "category": "math",
       "subcategory": "symbol",
       "print": "‘",
-      "dots": [
-        "3"
-      ],
+      "dots": ["3"],
       "context": {
         "position": "any",
         "requires_indicator": false,
         "priority": 100,
         "role": "symbol"
       },
-      "tags": [
-        "symbol",
-        "prime"
-      ],
+      "tags": ["symbol", "prime"],
       "note": "",
       "braille": "⠄",
       "unicode": "U+2804"
@@ -2399,20 +1677,14 @@
       "category": "math",
       "subcategory": "symbol",
       "print": "^",
-      "dots": [
-        "456",
-        "126"
-      ],
+      "dots": ["456", "126"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "symbol"
       },
-      "tags": [
-        "symbol",
-        "caret"
-      ],
+      "tags": ["symbol", "caret"],
       "note": "",
       "braille": "⠸⠣",
       "unicode": "U+2838 U+2823"
@@ -2422,20 +1694,14 @@
       "category": "math",
       "subcategory": "symbol",
       "print": "∅",
-      "dots": [
-        "456",
-        "356"
-      ],
+      "dots": ["456", "356"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "symbol"
       },
-      "tags": [
-        "symbol",
-        "null set"
-      ],
+      "tags": ["symbol", "null set"],
       "note": "",
       "braille": "⠸⠴",
       "unicode": "U+2838 U+2834"
@@ -2445,19 +1711,14 @@
       "category": "math",
       "subcategory": "symbol",
       "print": "!",
-      "dots": [
-        "12346"
-      ],
+      "dots": ["12346"],
       "context": {
         "position": "any",
         "requires_indicator": false,
         "priority": 100,
         "role": "symbol"
       },
-      "tags": [
-        "symbol",
-        "factorial"
-      ],
+      "tags": ["symbol", "factorial"],
       "note": "",
       "braille": "⠯",
       "unicode": "U+282F"
@@ -2467,20 +1728,14 @@
       "category": "math",
       "subcategory": "symbol",
       "print": "∞",
-      "dots": [
-        "6",
-        "123456"
-      ],
+      "dots": ["6", "123456"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "symbol"
       },
-      "tags": [
-        "symbol",
-        "infinity"
-      ],
+      "tags": ["symbol", "infinity"],
       "note": "",
       "braille": "⠠⠿",
       "unicode": "U+2820 U+283F"
@@ -2490,19 +1745,14 @@
       "category": "math",
       "subcategory": "symbol",
       "print": "U+222B",
-      "dots": [
-        "2346"
-      ],
+      "dots": ["2346"],
       "context": {
         "position": "any",
         "requires_indicator": false,
         "priority": 100,
         "role": "symbol"
       },
-      "tags": [
-        "symbol",
-        "integral"
-      ],
+      "tags": ["symbol", "integral"],
       "note": "",
       "braille": "⠮",
       "unicode": "U+282E"
@@ -2512,20 +1762,14 @@
       "category": "math",
       "subcategory": "symbol",
       "print": "@",
-      "dots": [
-        "4",
-        "1"
-      ],
+      "dots": ["4", "1"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "symbol"
       },
-      "tags": [
-        "symbol",
-        "at sign"
-      ],
+      "tags": ["symbol", "at sign"],
       "note": "",
       "braille": "⠈⠁",
       "unicode": "U+2808 U+2801"
@@ -2535,20 +1779,14 @@
       "category": "math",
       "subcategory": "symbol",
       "print": "U+2713",
-      "dots": [
-        "4",
-        "345"
-      ],
+      "dots": ["4", "345"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "symbol"
       },
-      "tags": [
-        "symbol",
-        "checkmark"
-      ],
+      "tags": ["symbol", "checkmark"],
       "note": "",
       "braille": "⠈⠜",
       "unicode": "U+2808 U+281C"
@@ -2558,20 +1796,14 @@
       "category": "math",
       "subcategory": "symbol",
       "print": "“",
-      "dots": [
-        "6",
-        "3"
-      ],
+      "dots": ["6", "3"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "symbol"
       },
-      "tags": [
-        "symbol",
-        "ditto mark"
-      ],
+      "tags": ["symbol", "ditto mark"],
       "note": "",
       "braille": "⠠⠄",
       "unicode": "U+2820 U+2804"
@@ -2581,20 +1813,14 @@
       "category": "math",
       "subcategory": "symbol",
       "print": "∴",
-      "dots": [
-        "6",
-        "16"
-      ],
+      "dots": ["6", "16"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "symbol"
       },
-      "tags": [
-        "symbol",
-        "therefore"
-      ],
+      "tags": ["symbol", "therefore"],
       "note": "",
       "braille": "⠠⠡",
       "unicode": "U+2820 U+2821"
@@ -2604,19 +1830,14 @@
       "category": "math",
       "subcategory": "symbol",
       "print": "|",
-      "dots": [
-        "456"
-      ],
+      "dots": ["456"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "symbol"
       },
-      "tags": [
-        "symbol",
-        "tally mark"
-      ],
+      "tags": ["symbol", "tally mark"],
       "note": "",
       "braille": "⠸",
       "unicode": "U+2838"
@@ -2626,21 +1847,14 @@
       "category": "math",
       "subcategory": "abbreviation",
       "print": "arc",
-      "dots": [
-        "1",
-        "1235",
-        "14"
-      ],
+      "dots": ["1", "1235", "14"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "abbreviation"
       },
-      "tags": [
-        "abbreviation",
-        "arc"
-      ],
+      "tags": ["abbreviation", "arc"],
       "note": "",
       "braille": "⠁⠗⠉",
       "unicode": "U+2801 U+2817 U+2809"
@@ -2650,21 +1864,14 @@
       "category": "math",
       "subcategory": "abbreviation",
       "print": "cos",
-      "dots": [
-        "15",
-        "135",
-        "234"
-      ],
+      "dots": ["15", "135", "234"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "abbreviation"
       },
-      "tags": [
-        "abbreviation",
-        "cosine"
-      ],
+      "tags": ["abbreviation", "cosine"],
       "note": "",
       "braille": "⠑⠕⠎",
       "unicode": "U+2811 U+2815 U+280E"
@@ -2674,21 +1881,14 @@
       "category": "math",
       "subcategory": "abbreviation",
       "print": "csc",
-      "dots": [
-        "14",
-        "234",
-        "14"
-      ],
+      "dots": ["14", "234", "14"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "abbreviation"
       },
-      "tags": [
-        "abbreviation",
-        "cosecant"
-      ],
+      "tags": ["abbreviation", "cosecant"],
       "note": "",
       "braille": "⠉⠎⠉",
       "unicode": "U+2809 U+280E U+2809"
@@ -2698,21 +1898,14 @@
       "category": "math",
       "subcategory": "abbreviation",
       "print": "cot",
-      "dots": [
-        "14",
-        "135",
-        "2345"
-      ],
+      "dots": ["14", "135", "2345"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "abbreviation"
       },
-      "tags": [
-        "abbreviation",
-        "cotangent"
-      ],
+      "tags": ["abbreviation", "cotangent"],
       "note": "",
       "braille": "⠉⠕⠞",
       "unicode": "U+2809 U+2815 U+281E"
@@ -2722,21 +1915,14 @@
       "category": "math",
       "subcategory": "abbreviation",
       "print": "det",
-      "dots": [
-        "145",
-        "15",
-        "2345"
-      ],
+      "dots": ["145", "15", "2345"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "abbreviation"
       },
-      "tags": [
-        "abbreviation",
-        "determinant"
-      ],
+      "tags": ["abbreviation", "determinant"],
       "note": "",
       "braille": "⠙⠑⠞",
       "unicode": "U+2819 U+2811 U+281E"
@@ -2746,21 +1932,14 @@
       "category": "math",
       "subcategory": "abbreviation",
       "print": "lim",
-      "dots": [
-        "123",
-        "24",
-        "134"
-      ],
+      "dots": ["123", "24", "134"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "abbreviation"
       },
-      "tags": [
-        "abbreviation",
-        "limit"
-      ],
+      "tags": ["abbreviation", "limit"],
       "note": "",
       "braille": "⠇⠊⠍",
       "unicode": "U+2807 U+280A U+280D"
@@ -2770,21 +1949,14 @@
       "category": "math",
       "subcategory": "abbreviation",
       "print": "log",
-      "dots": [
-        "123",
-        "135",
-        "1245"
-      ],
+      "dots": ["123", "135", "1245"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "abbreviation"
       },
-      "tags": [
-        "abbreviation",
-        "logarithm"
-      ],
+      "tags": ["abbreviation", "logarithm"],
       "note": "",
       "braille": "⠇⠕⠛",
       "unicode": "U+2807 U+2815 U+281B"
@@ -2794,21 +1966,14 @@
       "category": "math",
       "subcategory": "abbreviation",
       "print": "max",
-      "dots": [
-        "134",
-        "1",
-        "1346"
-      ],
+      "dots": ["134", "1", "1346"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "abbreviation"
       },
-      "tags": [
-        "abbreviation",
-        "maximum"
-      ],
+      "tags": ["abbreviation", "maximum"],
       "note": "",
       "braille": "⠍⠁⠭",
       "unicode": "U+280D U+2801 U+282D"
@@ -2818,21 +1983,14 @@
       "category": "math",
       "subcategory": "abbreviation",
       "print": "min",
-      "dots": [
-        "134",
-        "24",
-        "1345"
-      ],
+      "dots": ["134", "24", "1345"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "abbreviation"
       },
-      "tags": [
-        "abbreviation",
-        "minimum"
-      ],
+      "tags": ["abbreviation", "minimum"],
       "note": "",
       "braille": "⠍⠊⠝",
       "unicode": "U+280D U+280A U+281D"
@@ -2842,21 +2000,14 @@
       "category": "math",
       "subcategory": "abbreviation",
       "print": "sec",
-      "dots": [
-        "234",
-        "15",
-        "14"
-      ],
+      "dots": ["234", "15", "14"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "abbreviation"
       },
-      "tags": [
-        "abbreviation",
-        "secant"
-      ],
+      "tags": ["abbreviation", "secant"],
       "note": "",
       "braille": "⠎⠑⠉",
       "unicode": "U+280E U+2811 U+2809"
@@ -2866,21 +2017,14 @@
       "category": "math",
       "subcategory": "abbreviation",
       "print": "sin",
-      "dots": [
-        "234",
-        "24",
-        "1345"
-      ],
+      "dots": ["234", "24", "1345"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "abbreviation"
       },
-      "tags": [
-        "abbreviation",
-        "sine"
-      ],
+      "tags": ["abbreviation", "sine"],
       "note": "",
       "braille": "⠎⠊⠝",
       "unicode": "U+280E U+280A U+281D"
@@ -2890,21 +2034,14 @@
       "category": "math",
       "subcategory": "abbreviation",
       "print": "tan",
-      "dots": [
-        "2345",
-        "1",
-        "1345"
-      ],
+      "dots": ["2345", "1", "1345"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100,
         "role": "abbreviation"
       },
-      "tags": [
-        "abbreviation",
-        "tangent"
-      ],
+      "tags": ["abbreviation", "tangent"],
       "note": "",
       "braille": "⠞⠁⠝",
       "unicode": "U+281E U+2801 U+281D"

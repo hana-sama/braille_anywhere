@@ -220,4 +220,64 @@ describe("IndicatorMatcher", () => {
       }
     });
   });
+
+  // ==================================================================
+  // Nemeth indicators (2-cell: 456+146 open, 456+156 close)
+  // ==================================================================
+  describe("nemeth indicators", () => {
+    const nemethOpen = makeIndicator({
+      id: "indicator_nemeth",
+      dots: ["456", "146"],
+      targetMode: "nemeth",
+      action: "enter",
+      scope: "passage"
+    });
+    const nemethClose = makeIndicator({
+      id: "indicator_nemeth_terminator",
+      dots: ["456", "156"],
+      targetMode: "nemeth",
+      action: "exit",
+      tags: ["nemeth", "terminator"]
+    });
+
+    it("should return 'pending' after first cell (456) of nemeth open", () => {
+      matcher.setIndicators([nemethOpen, nemethClose]);
+
+      const r1 = matcher.tryMatch("456");
+      expect(r1.type).to.equal("pending");
+    });
+
+    it("should match nemeth open when second cell completes it (146)", () => {
+      matcher.setIndicators([nemethOpen, nemethClose]);
+
+      matcher.tryMatch("456"); // pending
+      const r2 = matcher.tryMatch("146");
+      expect(r2.type).to.equal("matched");
+      if (r2.type === "matched") {
+        expect(r2.indicator.id).to.equal("indicator_nemeth");
+      }
+    });
+
+    it("should match nemeth close when second cell completes it (156)", () => {
+      matcher.setIndicators([nemethOpen, nemethClose]);
+
+      matcher.tryMatch("456"); // pending
+      const r2 = matcher.tryMatch("156");
+      expect(r2.type).to.equal("matched");
+      if (r2.type === "matched") {
+        expect(r2.indicator.id).to.equal("indicator_nemeth_terminator");
+      }
+    });
+
+    it("should return 'none' when second cell doesn't match any nemeth indicator", () => {
+      matcher.setIndicators([nemethOpen, nemethClose]);
+
+      matcher.tryMatch("456"); // pending
+      const r2 = matcher.tryMatch("1"); // not 146 or 156
+      expect(r2.type).to.equal("none");
+      if (r2.type === "none") {
+        expect(r2.bufferedCells).to.deep.equal(["456", "1"]);
+      }
+    });
+  });
 });
